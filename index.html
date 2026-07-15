@@ -1,0 +1,1998 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico">
+    <title>Дом книги - Главная</title>
+    <meta name="description" content="">
+    <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/slick.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/suggestions.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/app.min.css?v=1.55">
+    <meta name="robots" content="noindex">
+</head>
+<body >
+    <!-- <div class="info-banner text-h4 text-center text-light" id="info-banner">
+    Скоро открытие нового магазина в Кронштадте!
+    <div class="info-banner-close">
+        
+    </div>
+</div> -->
+    <div class="page-wrapper" id="pageWrapper">
+
+        <div class="header-wrap">
+    <header class="header">
+        <div class="header-top container">
+            <a href="index.html" class="header-logo header-logo--top">
+                 
+                    <div class="header-logo-top">
+                        <img src="assets/img/logo/tt.svg" class="logo-dom" alt="">
+                        <img src="assets/img/logo/ff.svg" class="logo-face" alt="">
+                    </div>
+                    <div class="header-logo-bottom">
+                        <img src="assets/img/logo/bt.svg" class="logo-knigi" alt="">
+                    </div>
+                
+            </a>
+            <div class="header-location-wrap">
+                <button class="header-location text-link">Санкт-Петербург</button>
+                <div class="header-location-box">
+                    <div class="text-h4">
+                        Укажите ваш город
+                    </div>
+                    <label class="form-input header-location-input">
+                        <input type="text" name="city" class="form-input__input text-ph">
+                        <div class="form-input__ph text-ph">Населенный пункт</div>
+                    </label>
+                    <ul class="header-location-list">
+                        <li><button data-city="Санкт-Петербург">Санкт-Петербург</button></li>
+                        <li><button data-city="Москв">Москва</button></li>
+                        <li><button data-city="Нижний Новгород">Нижний Новгород</button></li>
+                        <li><button data-city="Екатеринбург">Екатеринбург</button></li>
+                        <li><button data-city="Тверь">Тверь</button></li>
+                        <li><button data-city="Краснодар">Краснодар</button></li>
+                        <li><button data-city="Самара">Самара</button></li>
+                        <li><button data-city="Новосибирск">Новосибирск</button></li>
+                        <li><button data-city="Челябинск">Челябинск</button></li>
+                        <li><button data-city="Ростов-на-Дону">Ростов-на-Дону</button></li>
+                        <li><button data-city="Казань">Казань</button></li>
+                        <li><button data-city="Уфа">Уфа</button></li>
+                        <li><button data-city="Красноярск">Красноярск</button></li>
+                        <li><button data-city="Воронеж">Воронеж</button></li>
+                        <li><button data-city="Волгоград">Волгоград</button></li>
+                        <li><button data-city="Саратов">Саратов</button></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <nav class="header-menu">
+                <ul class="header-menu-list">
+                    <li class="header-menu-link"><a href="promo.html" class="text-link">Акции</a></li>
+                    <li class="header-menu-link"><a href="certificate.html" class="text-link">Сертификаты</a></li>
+                    <li class="header-menu-link"><a href="events.html" class="text-link">События</a></li>
+                    <li class="header-menu-link"><a href="shops.html" class="text-link">Магазины</a></li>
+                    <li class="header-menu-link"><a href="customers.html" class="text-link">Покупателям</a></li>
+                    <li class="header-menu-link"><a href="about.html" class="text-link">О нас</a></li>
+                    <li class="header-menu-link"><a href="contacts.html" class="text-link">Контакты</a></li>
+                </ul>
+            </nav>
+            <div class="header-phone">
+                <a href="" class="header-phone-item text-link">Интернет-магазин 667-84-27</a>
+                <a href="" class="header-phone-item text-link">Наши магазины 667-84-25</a>
+            </div>
+        </div>
+        <div class="header-bottom container">
+            
+            <a href="index.html" class="header-logo header-logo--bottom">
+                 <div class="header-logo-top">
+                    <img src="assets/img/logo/tt.svg" class="logo-dom" alt="">
+                    <img src="assets/img/logo/ff.svg" class="logo-face" alt="">
+                </div>
+                <div class="header-logo-bottom">
+                    <img src="assets/img/logo/bt.svg" class="logo-knigi" alt="">
+                </div>
+            </a>
+            
+            <div class="header-buttons">
+                <button class="text-btn header-btn--menu header-btn--expmenu" data-menu="main"></button>
+                <button class="header-btn text-btn header-btn--expmenu" data-menu="catalog">Каталог</button>
+            </div>
+    
+            <form action="search_success.html" class="header-search">
+                <button class="header-search-btn">
+                    <img class="header-search-btn-icon" src="assets/img/Icon/Search.svg" alt="">
+                </button>
+                <input type="text" required placeholder="Найти книгу, товар или автора" class="header-search-input">
+            </form>
+    
+            <div class="header-right-buttons">
+                <div class="header-right-btn__wrap">
+                    <a href="lk-favourlist.html" class="header-right-btn">
+                        <img src="assets/img/Icon/Favourires-white.svg" alt="" class="header-right-btn-icon">
+                    </a>
+                </div>
+                <div class="header-right-btn__wrap">
+                    <a href="cart.html" class="header-right-btn">
+                        <div class="header-cart-count">
+                            3
+                        </div>
+                        <img src="assets/img/Icon/Basket-white.svg" alt="" class="header-right-btn-icon">
+                    </a>
+                </div>
+                <div class="header-right-btn__wrap">
+                    <a href="lk.html" class="header-right-btn">
+                        <img src="assets/img/Icon/Profile-white.svg" alt="" class="header-right-btn-icon">
+                    </a>
+                </div>
+            </div>
+            <button class="header-search__btn">
+                <img src="assets/img/Icon/Search.svg" alt="">
+            </button>
+        </div>
+    </header>
+
+    <menu class="menu main-menu" id="menu-main">
+        <div class="menu-main menu-block" data-menu="main">
+            <div class="menu-main-inf">
+                <div class="header-location-wrap">
+                    <button class="header-location text-link">Санкт-Петербург</button>
+                    <div class="header-location-box">
+                        <div class="text-h4 header-location-title">
+                            Укажите ваш город
+                        </div>
+                        <label class="form-input header-location-input">
+                            <input type="text" name="city" class="form-input__input text-ph">
+                            <div class="form-input__ph text-ph">Населенный пункт</div>
+                        </label>
+                        <ul class="header-location-list">
+                            <li><button data-city="Санкт-Петербург">Санкт-Петербург</button></li>
+                            <li><button data-city="Москв">Москва</button></li>
+                            <li><button data-city="Нижний Новгород">Нижний Новгород</button></li>
+                            <li><button data-city="Екатеринбург">Екатеринбург</button></li>
+                            <li><button data-city="Тверь">Тверь</button></li>
+                            <li><button data-city="Краснодар">Краснодар</button></li>
+                            <li><button data-city="Самара">Самара</button></li>
+                            <li><button data-city="Новосибирск">Новосибирск</button></li>
+                            <li><button data-city="Челябинск">Челябинск</button></li>
+                            <li><button data-city="Ростов-на-Дону">Ростов-на-Дону</button></li>
+                            <li><button data-city="Казань">Казань</button></li>
+                            <li><button data-city="Уфа">Уфа</button></li>
+                            <li><button data-city="Красноярск">Красноярск</button></li>
+                            <li><button data-city="Воронеж">Воронеж</button></li>
+                            <li><button data-city="Волгоград">Волгоград</button></li>
+                            <li><button data-city="Саратов">Саратов</button></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="header-phone">
+                    <a href="" class="header-phone-item text-link">Интернет-магазин 667-84-27</a>
+                    <a href="" class="header-phone-item text-link">Наши магазины 667-84-25</a>
+                </div>
+            </div>
+
+            <ul class="menu-main__list">
+                <!-- <li class="menu-main__item --hassub"><a href="" data-menu="books" class="menu-main__link">Книги</a></li>
+                <li class="menu-main__item --hassub"><a href="" data-menu="items" class="menu-main__link">Товары</a></li> -->
+                <li class="menu-main__item"><a href="promo.html" class="menu-main__link">Акции</a></li>
+                <li class="menu-main__item"><a href="certificate.html" class="menu-main__link">Сертификаты</a></li>
+                <li class="menu-main__item"><a href="events.html" class="menu-main__link">События</a></li>
+                <li class="menu-main__item"><a href="shops.html" class="menu-main__link">Магазины</a></li>
+                <li class="menu-main__item"><a href="customers.html" class="menu-main__link">Покупателям</a></li>
+                <li class="menu-main__item"><a href="about.html" class="menu-main__link">О нас</a></li>
+                <li class="menu-main__item"><a href="contacts.html" class="menu-main__link">Контакты</a></li>
+                <li class="menu-main__item"><a href="" class="menu-main__link">Выход</a></li>
+            </ul>
+        </div>
+        <div class="menu-side menu-block menu-lvl" data-menu="items">
+            <button class="menu-back" data-menu="main">
+                Назад
+            </button>
+            <div class="menu-side__block">
+                <div class="menu-side__block-title text-h4 text-accent">
+                    Товары
+                </div>
+                <ul class="menu-side__block-list">
+                    <li>
+                        <a href="catalog.html" data-submenu="25">
+                            Печатная некнижная продукция
+                        </a>
+                    </li>
+                    <li>
+                        <a href="catalog.html" data-submenu="26">
+                            Подарочная продукция
+                        </a>
+                    </li>
+                    <li>
+                        <a href="catalog.html" data-submenu="27">
+                            Продукты питания
+                        </a>
+                    </li>
+                    <li>
+                        <a href="catalog.html" data-submenu="28">
+                            Сувенирная продукция
+                        </a>
+                    </li>
+                    <li>
+                        <a href="catalog.html" data-submenu="29">
+                            Текстиль
+                        </a>
+                    </li>
+                    <li>
+                        <a href="catalog.html" data-submenu="30">
+                            Упаковка
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="menu-side__block">
+                <div class="menu-side__block-title text-h4 text-accent">
+                    Акции
+                </div>
+                <ul class="menu-side__block-list">
+                    <li>
+                        <a href="promo.html">
+                            Все предложения
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="menu-container menu-lvl" data-submenu="25">
+            <button class="menu-back"  data-menu="items">
+                Назад
+            </button>
+            <div class="menu-container__block">
+                <a href="" class="menu-container__block-title text-h4 text-accent">
+                    
+Грамоты, Дипломы, Благодартсвенные письма
+                </a>
+                <ul class="menu-container__block-list">
+                    <li><a href="catalog.html">Грамоты</a></li>
+                    <li><a href="catalog.html">Дипломы</a></li>
+                </ul>
+            </div>
+            <div class="menu-container__block">
+                <a href="" class="menu-container__block-title text-h4 text-accent">
+                    Закладки книжные
+                </a>
+                <ul class="menu-container__block-list">
+                    <li><a href="catalog.html">Закладки С Видами Города</a></li>
+                    <li><a href="catalog.html">Закладки Книжные</a></li>
+                    <li><a href="catalog.html">Закладки В Наборе</a></li>
+                </ul>
+            </div>
+            <div class="menu-container__block">
+                <a href="" class="menu-container__block-title text-h4 text-accent">
+                    Открытки, конверты
+                </a>
+                <ul class="menu-container__block-list">
+                    <li><a href="catalog.html">Конверты Поздравительные</a></li>
+                    <li><a href="catalog.html">Наборы Открыток</a></li>
+                    <li><a href="catalog.html">Поздравительные Открытки</a></li>
+                    <li><a href="catalog.html">Пригласительные Открытки</a></li>
+                    <li><a href="catalog.html">Посткроссинг</a></li>
+                    <li><a href="catalog.html">Открытки С Видами Города</a></li>
+                    <li><a href="catalog.html">Открытки К Сезонным Праздникам</a></li>
+                    <li><a href="catalog.html">Стикеры И Стикерпаки</a></li>
+                </ul>
+            </div>
+            <div class="menu-container__block">
+                <a href="" class="menu-container__block-title text-h4 text-accent">
+                    Постеры, репродукции
+                </a>
+                <ul class="menu-container__block-list">
+                    <li><a href="catalog.html">Плакаты И Постеры</a></li>
+                </ul>
+            </div>
+            <div class="menu-container__block">
+                <a href="" class="menu-container__block-title text-h4 text-accent">       
+                    Календари
+                </a>
+                <ul class="menu-container__block-list">
+                    <li><a href="catalog.html">Календари Карманные</a></li>
+                    <li><a href="catalog.html">Календари На Ригеле, Пружине</a></li>
+                    <li><a href="catalog.html">Календари На Скрепке</a></li>
+                    <li><a href="catalog.html">Календари Блочные</a></li>
+                    <li><a href="catalog.html">Календари Настольные</a></li>
+                </ul>
+            </div>
+            <div class="menu-container__block --fake-block">
+
+            </div>
+        </div>
+        <div class="menu-container menu-lvl" data-submenu="28">
+            <button class="menu-back"  data-menu="items">
+                Назад
+            </button>
+            <div class="menu-container__block">
+                <a href="catalog.html" class="menu-container__block-title text-h4 text-accent">
+                    Посуда
+                </a>
+                <ul class="menu-container__block-list">
+                    <li><a href="">Ложки</a></li>
+                    <li><a href="">Кружки</a></li>
+                </ul>
+            </div>
+            <div class="menu-container__block">
+                <a href="catalog.html" class="menu-container__block-title text-h4 text-accent">
+                    Магниты
+                </a>
+                <ul class="menu-container__block-list">
+                    <li><a href="catalog.html">Магниты разные</a></li>
+                    <li><a href="catalog.html">Магниты с видами города</a></li>
+                </ul>
+            </div>
+            <div class="menu-container__block">
+                <a href="catalog.html" class="menu-container__block-title text-h4 text-accent">
+                    Зонты, дождевики
+                </a>
+                <ul class="menu-container__block-list">
+                    <li><a href="catalog.html">Зонты полуавтоматические</a></li>
+                    <li><a href="catalog.html">Зонты трости</a></li>
+                </ul>
+            </div>
+            <div class="menu-container__block">
+                <a href="catalog.html" class="menu-container__block-title text-h4 text-accent">
+                    Кожгалантерея
+                </a>
+                <ul class="menu-container__block-list">
+                    <li><a href="catalog.html">Обложки для документов</a></li>
+                </ul>
+            </div>
+            <div class="menu-container__block">
+                <a href="catalog.html" class="menu-container__block-title text-h4 text-accent">
+                    Сувениры мелкие
+                </a>
+                <ul class="menu-container__block-list">
+                    <li><a href="catalog.html">Значки и пины</a></li>
+                    <li><a href="catalog.html">Колокольчики</a></li>
+
+                </ul>
+            </div>
+            <div class="menu-container__block">
+                <a href="catalog.html" class="menu-container__block-title text-h4 text-accent">
+                    Народные художественные промыслы
+                </a>
+                <ul class="menu-container__block-list">
+                    <li><a href="catalog.html">Изделия народных художественных промыслов</a></li>
+                </ul>
+            </div>
+        </div>
+    </menu>
+
+    <menu class="menu" id="menu-catalog" style="">
+        <div class="menu-side">
+            <div class="menu-head">
+                <span>Каталог</span>
+                <div class="menu-head-close">
+
+                </div>
+            </div>
+            <div class="menu-side__block">
+                <div class="menu-side__block-item active">
+                    <a href="" class="text-link menu-side__block-link" data-sub-menu="1">
+                        Книги
+                    </a>
+                </div>
+                <div class="menu-side__block-item">
+                    <a href="" class="text-link  menu-side__block-link" data-sub-menu="1">
+                        Сувениры
+                    </a>
+                </div>
+                <div class="menu-side__block-item">
+                    <a href="" class="text-link menu-side__block-link" data-sub-menu="1">
+                    Канцелярия
+                    </a>
+                </div>
+                <div class="menu-side__block-item">
+                    <a href="" class="text-link menu-side__block-link" data-sub-menu="1">
+                        Игрушки, игры и творчество
+                    </a>
+                </div>
+                <div class="menu-side__block-item">
+                    <a href="" class="text-link  menu-side__block-link" data-sub-menu="1">
+                        Продукты питания 
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="menu-sub active" data-sub-menu="1" data-menu-level="1">
+            <div class="menu-head">
+                <div class="menu-head-back"></div>
+                <span>Книги</span>
+                <div class="menu-head-close">
+
+                </div>
+            </div>
+            <div class="menu-sub-title">
+                Книги
+            </div>
+
+            <ul class="menu-sub-list">
+                <li class="menu-sub-item"><a href="" class="menu-sub-link">Смотреть все товары раздела</a></li>
+                <li class="menu-sub-item"><a href="" class="menu-sub-link" data-sub-menu="2">Художественная литература</a></li>
+                <li class="menu-sub-item"><a href="" class="menu-sub-link" data-sub-menu="2">Детская литература</a></li>
+                <li class="menu-sub-item"><a href="" class="menu-sub-link" data-sub-menu="2">Искусство</a></li>
+                <li class="menu-sub-item"><a href="" class="menu-sub-link" data-sub-menu="2">Краеведение</a></li>
+                <li class="menu-sub-item"><a href="" class="menu-sub-link" data-sub-menu="2">Психология</a></li>
+                <li class="menu-sub-item"><a href="" class="menu-sub-link" data-sub-menu="2">История. Исторические науки</a></li>
+                <li class="menu-sub-item"><a href="" class="menu-sub-link" data-sub-menu="2">Филология, лингвистика</a></li>
+                <li class="menu-sub-item"><a href="" class="menu-sub-link" data-sub-menu="2">Военное дело. История войн</a></li>
+                <li class="menu-sub-item"><a href="" class="menu-sub-link" data-sub-menu="2">Государство и право. Юриспруденция</a></li>
+                <li class="menu-sub-item"><a href="" class="menu-sub-link" data-sub-menu="2">Деловая литература</a></li>
+                <li class="menu-sub-item"><a href="" class="menu-sub-link" data-sub-menu="2">Дом. Досуг. Красота. Хобби</a></li>
+                <li class="menu-sub-item"><a href="" class="menu-sub-link" data-sub-menu="2">Естественные науки. Математика</a></li>
+                <li class="menu-sub-item"><a href="" class="menu-sub-link" data-sub-menu="2">Художественная литература</a></li>
+                <li class="menu-sub-item"><a href="" class="menu-sub-link" data-sub-menu="2">Детская литература</a></li>
+                <li class="menu-sub-item"><a href="" class="menu-sub-link" data-sub-menu="2">Искусство</a></li>
+                <li class="menu-sub-item"><a href="" class="menu-sub-link" data-sub-menu="2">Краеведение</a></li>
+                <li class="menu-sub-item"><a href="" class="menu-sub-link" data-sub-menu="2">Психология</a></li>
+                <li class="menu-sub-item"><a href="" class="menu-sub-link" data-sub-menu="2">История. Исторические науки</a></li>
+                <li class="menu-sub-item"><a href="" class="menu-sub-link" data-sub-menu="2">Филология, лингвистика</a></li>
+                <li class="menu-sub-item"><a href="" class="menu-sub-link" data-sub-menu="2">Военное дело. История войн</a></li>
+                <li class="menu-sub-item"><a href="" class="menu-sub-link" data-sub-menu="2">Государство и право. Юриспруденция</a></li>
+                <li class="menu-sub-item"><a href="" class="menu-sub-link" data-sub-menu="2">Деловая литература</a></li>
+                <li class="menu-sub-item"><a href="" class="menu-sub-link" data-sub-menu="2">Дом. Досуг. Красота. Хобби</a></li>
+                <li class="menu-sub-item"><a href="" class="menu-sub-link" data-sub-menu="2">Естественные науки. Математика</a></li>
+                <li class="menu-sub-item"><a href="" class="menu-sub-link" data-sub-menu="2">Художественная литература</a></li>
+                <li class="menu-sub-item"><a href="" class="menu-sub-link" data-sub-menu="2">Детская литература</a></li>
+                <li class="menu-sub-item"><a href="" class="menu-sub-link" data-sub-menu="2">Искусство</a></li>
+                <li class="menu-sub-item"><a href="" class="menu-sub-link" data-sub-menu="2">Краеведение</a></li>
+                <li class="menu-sub-item"><a href="" class="menu-sub-link" data-sub-menu="2">Психология</a></li>
+                <li class="menu-sub-item"><a href="" class="menu-sub-link" data-sub-menu="2">История. Исторические науки</a></li>
+                <li class="menu-sub-item"><a href="" class="menu-sub-link" data-sub-menu="2">Филология, лингвистика</a></li>
+                <li class="menu-sub-item"><a href="" class="menu-sub-link" data-sub-menu="2">Военное дело. История войн</a></li>
+                <li class="menu-sub-item"><a href="" class="menu-sub-link" data-sub-menu="2">Государство и право. Юриспруденция</a></li>
+                <li class="menu-sub-item"><a href="" class="menu-sub-link" data-sub-menu="2">Деловая литература</a></li>
+                <li class="menu-sub-item"><a href="" class="menu-sub-link" data-sub-menu="2">Дом. Досуг. Красота. Хобби</a></li>
+                <li class="menu-sub-item"><a href="" class="menu-sub-link" data-sub-menu="2">Естественные науки. Математика</a></li>
+                
+            </ul>
+        </div>
+        <div class="menu-sub" data-sub-menu="2" data-menu-level="2">
+
+            <div class="menu-head">
+                <div class="menu-head-back"></div>
+                <span>Художественная литература</span>
+                <div class="menu-head-close">
+
+                </div>
+            </div>
+            <div class="menu-sub-title">
+                Художественная литература
+            </div>
+
+            <ul class="menu-sub-list">
+                <li class="menu-sub-item"><a href="" class="menu-sub-link" data-sub-menu="3">Смотреть все товары раздела</a></li>
+                <li class="menu-sub-item"><a href="" class="menu-sub-link" data-sub-menu="3">Религиоведение</a></li>
+                <li class="menu-sub-item"><a href="" class="menu-sub-link" data-sub-menu="3">Общественные науки: специальные издания</a></li>
+                <li class="menu-sub-item"><a href="" class="menu-sub-link" data-sub-menu="3">Общая психология</a></li>
+                <li class="menu-sub-item"><a href="" class="menu-sub-link" data-sub-menu="3">Практическая психология</a></li>
+                <li class="menu-sub-item"><a href="" class="menu-sub-link" data-sub-menu="3">Справочная и учебная литература по психологии</a></li>
+                <li class="menu-sub-item"><a href="" class="menu-sub-link" data-sub-menu="3">Книги по психологии: специальные издания</a></li>
+                <li class="menu-sub-item"><a href="" class="menu-sub-link" data-sub-menu="3">Путешествия по миру</a></li>
+                <li class="menu-sub-item"><a href="" class="menu-sub-link" data-sub-menu="3">Путешествия по России</a></li>
+                <li class="menu-sub-item"><a href="" class="menu-sub-link" data-sub-menu="3">Спорт</a></li>
+                <li class="menu-sub-item"><a href="" class="menu-sub-link" data-sub-menu="3">Физическая культура</a></li>
+            </ul>
+        </div>
+        <div class="menu-sub" data-sub-menu="3" data-menu-level="3">
+            <div class="menu-head">
+                <div class="menu-head-back"></div>
+                <span>Религиоведение</span>
+                <div class="menu-head-close">
+
+                </div>
+            </div>
+            <div class="menu-sub-title">
+                Религиоведение
+            </div>
+
+            <ul class="menu-sub-list">
+                <li class="menu-sub-item"><a href="" class="menu-sub-link">Смотреть все товары раздела</a></li>
+                <li class="menu-sub-item"><a href="" class="menu-sub-link">Религиоведение</a></li>
+                <li class="menu-sub-item"><a href="" class="menu-sub-link">Общественные науки: специальные издания</a></li>
+                <li class="menu-sub-item"><a href="" class="menu-sub-link">Общая психология</a></li>
+                <li class="menu-sub-item"><a href="" class="menu-sub-link">Практическая психология</a></li>
+                <li class="menu-sub-item"><a href="" class="menu-sub-link">Справочная и учебная литература по психологии</a></li>
+                <li class="menu-sub-item"><a href="" class="menu-sub-link">Книги по психологии: специальные издания</a></li>
+                <li class="menu-sub-item"><a href="" class="menu-sub-link">Путешествия по миру</a></li>
+                <li class="menu-sub-item"><a href="" class="menu-sub-link">Путешествия по России</a></li>
+                <li class="menu-sub-item"><a href="" class="menu-sub-link">Спорт</a></li>
+                <li class="menu-sub-item"><a href="" class="menu-sub-link">Физическая культура</a></li>
+            </ul>
+        </div>
+        <div class="menu-close">
+
+        </div>
+    </menu>
+
+    <menu class="menu" id="menu-books">
+        <div class="menu-side menu-block menu-lvl" data-menu="books">
+            <button class="menu-back" data-menu="main">
+                Назад
+            </button>
+            <div class="menu-side__block">
+                <div class="menu-side__block-title text-h4 text-accent">
+                    Книги
+                </div>
+                <ul class="menu-side__block-list">
+                    <li class="strong">
+                        <a href="" data-submenu="1">
+                        Художественная литература
+                        </a>
+                    </li>
+                    <li class="strong">
+                        <a href="" data-submenu="2">
+                            Детская литература
+                        </a>
+                    </li>
+                    <li class="strong">
+                        <a href="" data-submenu="3">
+                            Искусство
+                        </a>
+                    </li>
+                    <li class="strong">
+                        <a href="" data-submenu="4">
+                            Краеведение
+                        </a>
+                    </li>
+                    <li class="strong">
+                        <a href="" data-submenu="5">
+                            Психология
+                        </a>
+                    </li>
+                    <li class="strong">
+                        <a href="" data-submenu="6">
+                            История. Исторические науки
+                        </a>
+                    </li>
+                    <li class="strong">
+                        <a href="" data-submenu="7">
+                            Филология, лингвистика
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" data-submenu="8">
+                            Военное дело. История войн
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" data-submenu="9">
+                            Государство и право. Юриспруденция
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" data-submenu="10">
+                            Деловая литература
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" data-submenu="11">
+                            Дом. Досуг. Красота. Хобби
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" data-submenu="12">
+                            Естественные науки. Математика
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" data-submenu="13">
+                            Информационные технологии. Вычислительная техника
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" data-submenu="14">
+                            Кулинария. Напитки
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" data-submenu="15">
+                            Медицина, Здравоохранение
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" data-submenu="16">
+                            Общественные науки
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" data-submenu="17">
+                            Педагогика. Воспитание. Образование
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" data-submenu="18">
+                            Страноведение. Путешествия
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" data-submenu="19">
+                            Технические науки. Отрасли промышленности и хозяйства
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" data-submenu="20">
+                            Учебная и методическая школьная литература
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" data-submenu="21">
+                            Физическая культура. Спорт
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" data-submenu="22">
+                            Философия
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" data-submenu="23">
+                            Эзотерика. Парапсихология
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" data-submenu="24">
+                            Букинистика
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="menu-side__block">
+                <div class="menu-side__block-title text-h4 text-accent">
+                    Акции
+                </div>
+                <ul class="menu-side__block-list">
+                    <li>
+                        <a href="">
+                            Все предложения
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        
+    </menu>
+
+    <menu class="menu" id="menu-items">
+        <div class="menu-side menu-block menu-lvl" data-menu="items">
+            <button class="menu-back" data-menu="main">
+                Назад
+            </button>
+            <div class="menu-side__block">
+                <div class="menu-side__block-title text-h4 text-accent">
+                    Товары
+                </div>
+                <ul class="menu-side__block-list">
+                    <li>
+                        <a href="" data-submenu="25">
+                            Печатная некнижная продукция
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" data-submenu="26">
+                            Подарочная продукция
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" data-submenu="27">
+                            Продукты питания
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" data-submenu="28">
+                            Сувенирная продукция
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" data-submenu="29">
+                            Текстиль
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" data-submenu="30">
+                            Упаковка
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="menu-side__block">
+                <div class="menu-side__block-title text-h4 text-accent">
+                    Акции
+                </div>
+                <ul class="menu-side__block-list">
+                    <li>
+                        <a href="">
+                            Все предложения
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="menu-container menu-lvl" data-submenu="25">
+            <button class="menu-back"  data-menu="items">
+                Назад
+            </button>
+            <div class="menu-container__block">
+                <a href="" class="menu-container__block-title text-h4 text-accent">
+                    
+Грамоты, Дипломы, Благодартсвенные письма
+                </a>
+                <ul class="menu-container__block-list">
+                    <li><a href="">Грамоты</a></li>
+                    <li><a href="">Дипломы</a></li>
+                </ul>
+            </div>
+            <div class="menu-container__block">
+                <a href="" class="menu-container__block-title text-h4 text-accent">
+                    Закладки книжные
+                </a>
+                <ul class="menu-container__block-list">
+                    <li><a href="">Закладки С Видами Города</a></li>
+                    <li><a href="">Закладки Книжные</a></li>
+                    <li><a href="">Закладки В Наборе</a></li>
+                </ul>
+            </div>
+            <div class="menu-container__block">
+                <a href="" class="menu-container__block-title text-h4 text-accent">
+                    Открытки, конверты
+                </a>
+                <ul class="menu-container__block-list">
+                    <li><a href="">Конверты Поздравительные</a></li>
+                    <li><a href="">Наборы Открыток</a></li>
+                    <li><a href="">Поздравительные Открытки</a></li>
+                    <li><a href="">Пригласительные Открытки</a></li>
+                    <li><a href="">Посткроссинг</a></li>
+                    <li><a href="">Открытки С Видами Города</a></li>
+                    <li><a href="">Открытки К Сезонным Праздникам</a></li>
+                    <li><a href="">Стикеры И Стикерпаки</a></li>
+                </ul>
+            </div>
+            <div class="menu-container__block">
+                <a href="" class="menu-container__block-title text-h4 text-accent">
+                    Постеры, репродукции
+                </a>
+                <ul class="menu-container__block-list">
+                    <li><a href="">Плакаты И Постеры</a></li>
+                </ul>
+            </div>
+            <div class="menu-container__block">
+                <a href="" class="menu-container__block-title text-h4 text-accent">       
+                    Календари
+                </a>
+                <ul class="menu-container__block-list">
+                    <li><a href="">Календари Карманные</a></li>
+                    <li><a href="">Календари На Ригеле, Пружине</a></li>
+                    <li><a href="">Календари На Скрепке</a></li>
+                    <li><a href="">Календари Блочные</a></li>
+                    <li><a href="">Календари Настольные</a></li>
+                </ul>
+            </div>
+            <div class="menu-container__block --fake-block">
+
+            </div>
+        </div>
+        <div class="menu-container menu-lvl" data-submenu="28">
+            <button class="menu-back"  data-menu="items">
+                Назад
+            </button>
+            <div class="menu-container__block">
+                <a href="" class="menu-container__block-title text-h4 text-accent">
+                    Посуда
+                </a>
+                <ul class="menu-container__block-list">
+                    <li><a href="">Ложки</a></li>
+                    <li><a href="">Кружки</a></li>
+                </ul>
+            </div>
+            <div class="menu-container__block">
+                <a href="" class="menu-container__block-title text-h4 text-accent">
+                    Магниты
+                </a>
+                <ul class="menu-container__block-list">
+                    <li><a href="">Магниты разные</a></li>
+                    <li><a href="">Магниты с видами города</a></li>
+                </ul>
+            </div>
+            <div class="menu-container__block">
+                <a href="" class="menu-container__block-title text-h4 text-accent">
+                    Зонты, дождевики
+                </a>
+                <ul class="menu-container__block-list">
+                    <li><a href="">Зонты полуавтоматические</a></li>
+                    <li><a href="">Зонты трости</a></li>
+                </ul>
+            </div>
+            <div class="menu-container__block">
+                <a href="" class="menu-container__block-title text-h4 text-accent">
+                    Кожгалантерея
+                </a>
+                <ul class="menu-container__block-list">
+                    <li><a href="">Обложки для документов</a></li>
+                </ul>
+            </div>
+            <div class="menu-container__block">
+                <a href="" class="menu-container__block-title text-h4 text-accent">
+                    Сувениры мелкие
+                </a>
+                <ul class="menu-container__block-list">
+                    <li><a href="">Значки и пины</a></li>
+                    <li><a href="">Колокольчики</a></li>
+
+                </ul>
+            </div>
+            <div class="menu-container__block">
+                <a href="" class="menu-container__block-title text-h4 text-accent">
+                    Народные художественные промыслы
+                </a>
+                <ul class="menu-container__block-list">
+                    <li><a href="">Изделия народных художественных промыслов</a></li>
+                </ul>
+            </div>
+        </div>
+    </menu>
+
+
+                    <div class="header-location-accept">
+                    <div class="text-h4 text-accent">
+                        Ваш город — Санкт-Петербург?
+                    </div>
+                    <div class="header-location-buttons">
+                        <button class="text-btn btn btn-more text-accent change-location">Изменить город</button>
+                        <button class="text-btn btn btn--dark accept-location">Да, я здесь</button>
+                    </div>
+                </div>
+</div>
+        
+
+<div class="banner-main container">
+    <div class="banner-main__slider">
+        <div>
+            <div class="banner-main__slider-item" style="--bg-color: #fff;">
+                <a href="index.html" class="banner-main__slider-item-wrap">
+                    <img class="banner-main__slider-item__bg" src="assets/img/banner-full.png" alt="">
+                    <!-- <picture class="banner-main__slider-item__bg">
+                        <source srcset="assets/img/banner-m.jpg" media="(max-width: 899px)">
+                        <img src="assets/img/banner-full.jpg" alt="">
+                    </picture> -->
+                </a>
+            </div>
+        </div>
+        <div>
+            <div class="banner-main__slider-item" style="--bg-color: #fff;">
+                <a href="index.html" class="banner-main__slider-item-wrap">
+                    <img class="banner-main__slider-item__bg" src="assets/img/banner-full.png" alt="">
+                    <!-- <picture class="banner-main__slider-item__bg">
+                        <source srcset="assets/img/banner-m.jpg" media="(max-width: 899px)">
+                        <img src="assets/img/banner-full.jpg" alt="">
+                    </picture> -->
+                </a>
+            </div>
+        </div>
+        <div>
+            <div class="banner-main__slider-item" style="--bg-color: #fff;">
+                <a href="index.html" class="banner-main__slider-item-wrap">
+                    <img class="banner-main__slider-item__bg" src="assets/img/banner-full.png" alt="">
+                    <!-- <picture class="banner-main__slider-item__bg">
+                        <source srcset="assets/img/banner-m.jpg" media="(max-width: 899px)">
+                        <img src="assets/img/banner-full.jpg" alt="">
+                    </picture> -->
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="banner-main__arrows-lg">
+
+    </div>
+
+    <div class="banner-main-min-banners">
+        <a href="" class="banner-main-min-banners-item">
+            <div class="banner-main-min-banners-item__info">
+                <div class="banner-main-min-banners-item__info-text">Акции</div>
+            </div>
+            <img src="assets/img/banner-min-new.png" alt="">
+            <button class="button btn btn-dark"><span class="btn-text">Подробнее</span></button>
+        </a>
+        <div class="banner-main-min-banners-slider">
+            <div>
+                <a href="" class="banner-main-min-banners-item">
+                    <div class="banner-main-min-banners-item__info">
+                        <div class="banner-main-min-banners-item__info-text">20 мая 19:00</div>
+                        <div class="banner-main-min-banners-item__info-text">События</div>
+                    </div>
+                    <img src="assets/img/banner-min2-new.png" alt="">
+                    <button class="button btn btn-dark"><span class="btn-text">Подробнее</span></button>
+                </a>
+            </div>
+            <div>
+                <a href="" class="banner-main-min-banners-item">
+                    <div class="banner-main-min-banners-item__info">
+                        <div class="banner-main-min-banners-item__info-text">20 мая 19:00</div>
+                        <div class="banner-main-min-banners-item__info-text">События</div>
+                    </div>
+                    <img src="assets/img/banner-min2-new.png" alt="">
+                    <button class="button btn btn-dark"><span class="btn-text">Подробнее</span></button>
+                </a>
+            </div>
+            <div>
+                <a href="" class="banner-main-min-banners-item">
+                    <div class="banner-main-min-banners-item__info">
+                        <div class="banner-main-min-banners-item__info-text">20 мая 19:00</div>
+                        <div class="banner-main-min-banners-item__info-text">События</div>
+                    </div>
+                    <img src="assets/img/banner-min2-new.png" alt="">
+                    <button class="button btn btn-dark"><span class="btn-text">Подробнее</span></button>
+                </a>
+            </div>
+        </div>
+        <div class="banner-main__arrows">
+
+        </div>
+    </div>
+    <div class="container banner-main__controls">
+        <div class="banner-main__dots dots">
+
+        </div>
+    </div>
+</div>
+
+<div class="banner-main-min-banners-m--wrap">
+    <div class="container banner-main-min-banners-m">
+        <div class="banner-main-min-banners-slider-m">
+            <div>
+                <a href="" class="banner-main-min-banners-item">
+                    <div class="banner-main-min-banners-item__info">
+                        <div class="banner-main-min-banners-item__info-text">Акции</div>
+                    </div>
+                    <img src="assets/img/banner-min-new.png" alt="">
+                    <button class="button btn btn-dark"><span class="btn-text">Подробнее</span></button>
+                </a>
+            </div>
+            <div>
+                <a href="" class="banner-main-min-banners-item">
+                    <div class="banner-main-min-banners-item__info">
+                        <div class="banner-main-min-banners-item__info-text">20 мая 19:00</div>
+                        <div class="banner-main-min-banners-item__info-text">События</div>
+                    </div>
+                    <img src="assets/img/banner-min2-new.png" alt="">
+                    <button class="button btn btn-dark"><span class="btn-text">Подробнее</span></button>
+                </a>
+            </div>
+            <div>
+                <a href="" class="banner-main-min-banners-item">
+                    <div class="banner-main-min-banners-item__info">
+                        <div class="banner-main-min-banners-item__info-text">20 мая 19:00</div>
+                        <div class="banner-main-min-banners-item__info-text">События</div>
+                    </div>
+                    <img src="assets/img/banner-min2-new.png" alt="">
+                    <button class="button btn btn-dark"><span class="btn-text">Подробнее</span></button>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="banner-main-small-banners container">
+    <div class="banner-main-small-banners__wrap banner-main-small-banners__wrap--desktop">
+        <div class="banner-main-small-banner">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M0 2.66393C0 1.08792 1.22034 -0.122301 2.7029 0.00988148C4.72086 0.184287 7.71331 1.24747 9.42421 2.38289L9.65501 2.5305C9.65732 2.53167 9.66695 2.53637 9.68545 2.54128C9.71023 2.54786 9.74217 2.55244 9.77778 2.55244C9.81338 2.55244 9.84533 2.54786 9.8701 2.54128C9.88764 2.53662 9.89721 2.53216 9.90013 2.53071L10.0511 2.42655C11.7623 1.27889 14.7684 0.204185 16.7868 0.0197724C16.8062 0.0180022 16.8256 0.0171158 16.8451 0.0171158H16.8731C18.336 -0.0960627 19.5556 1.09155 19.5556 2.67363V14.3758C19.5556 15.6676 18.5952 16.8545 17.3754 17.017L17.3728 17.0174L17.0766 17.0557C15.1797 17.3255 12.2114 18.3706 10.5394 19.3533C10.2929 19.5028 10.0131 19.5556 9.77209 19.5556C9.53264 19.5556 9.25943 19.5035 9.01614 19.3639L8.99065 19.3503C8.98316 19.3463 8.97574 19.3422 8.9684 19.3379C7.29528 18.3626 4.32854 17.3243 2.43822 17.055L2.43537 17.0546L2.17557 17.0164C0.957941 16.8515 0 15.666 0 14.3758V2.66393ZM2.5897 1.45916C1.90798 1.3981 1.36434 1.93283 1.36434 2.66393V14.3758C1.36434 14.9456 1.82289 15.5038 2.34942 15.574L2.35803 15.5751L2.61894 15.6136L2.62041 15.6138C4.67338 15.9065 7.79104 16.997 9.61181 18.0554L9.63715 18.0689C9.64563 18.0735 9.65402 18.0782 9.66232 18.0831C9.66232 18.0831 9.6711 18.0875 9.69033 18.0921C9.71269 18.0976 9.74104 18.1013 9.77209 18.1013C9.80322 18.1013 9.83017 18.0976 9.84993 18.0927C9.86015 18.0902 9.86614 18.0879 9.86843 18.087L9.87551 18.0826C11.6959 17.0114 14.8333 15.9066 16.9006 15.6135L16.9085 15.6124L17.2061 15.574L17.2072 15.5738C17.7333 15.5031 18.1912 14.9452 18.1912 14.3758V2.67363C18.1912 1.93985 17.645 1.4072 16.9568 1.46886C16.9378 1.47056 16.9187 1.47141 16.8996 1.47141H16.8749C15.0737 1.64372 12.301 2.63722 10.7813 3.65511L10.6197 3.76662C10.3544 3.94214 10.0464 4.00673 9.77778 4.00673C9.51092 4.00673 9.20523 3.94287 8.94111 3.7699L8.7073 3.62037C7.17961 2.60489 4.39197 1.61468 2.59178 1.45934L2.5897 1.45916Z"
+                    fill="#E3ECE8" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M9.77778 2.74149C10.1545 2.74149 10.4599 3.06705 10.4599 3.46864V18.0116C10.4599 18.4132 10.1545 18.7387 9.77778 18.7387C9.40103 18.7387 9.09561 18.4132 9.09561 18.0116V3.46864C9.09561 3.06705 9.40103 2.74149 9.77778 2.74149Z"
+                    fill="#E3ECE8" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M3.18346 6.37723C3.18346 5.97564 3.48888 5.65008 3.86563 5.65008H5.91214C6.2889 5.65008 6.59432 5.97564 6.59432 6.37723C6.59432 6.77882 6.2889 7.10438 5.91214 7.10438H3.86563C3.48888 7.10438 3.18346 6.77882 3.18346 6.37723Z"
+                    fill="#E3ECE8" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M3.18346 9.28582C3.18346 8.88422 3.48888 8.55867 3.86563 8.55867H6.59432C6.97107 8.55867 7.27649 8.88422 7.27649 9.28582C7.27649 9.68741 6.97107 10.013 6.59432 10.013H3.86563C3.48888 10.013 3.18346 9.68741 3.18346 9.28582Z"
+                    fill="#E3ECE8" />
+            </svg>
+            <p class="banner-main-small-banner__text">
+                Подборка книг от сотрудников Дома книги
+            </p>
+        </div>
+        <div class="banner-main-small-banner">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M0.666394 5.99784H5.66435C6.0314 5.99784 6.33074 5.69848 6.33074 5.33144C6.33074 4.9644 6.03139 4.66504 5.66435 4.66504H0.666394C0.299344 4.66504 0 4.9644 0 5.33144C0 5.69848 0.299358 5.99784 0.666394 5.99784Z"
+                    fill="#E3ECE8" />
+                <path
+                    d="M0.666394 10.6629H2.66558C3.03263 10.6629 3.33197 10.3635 3.33197 9.99648C3.33197 9.62944 3.03261 9.33008 2.66558 9.33008H0.666394C0.299344 9.33008 0 9.62944 0 9.99648C0 10.3635 0.299358 10.6629 0.666394 10.6629Z"
+                    fill="#E3ECE8" />
+                <path
+                    d="M19.9919 8.26637C19.9919 7.51277 19.7316 6.77346 19.2618 6.18386L15.3167 1.2495C14.6802 0.452952 13.734 0 12.7149 0H0.723801C0.350254 0 0.0339835 0.262915 0.00402909 0.600027C-0.012891 0.792657 0.0469811 0.976177 0.174532 1.11675C0.300784 1.25732 0.481697 1.33672 0.667831 1.33672H9.99735V6.00152C9.99735 7.10395 10.8941 8.00073 11.9965 8.00073H18.6605V14.005C18.1034 13.5846 17.411 13.3321 16.6613 13.3321C15.0526 13.3321 13.7055 14.4788 13.3957 15.9977H6.62879L6.47261 15.5552C5.97931 14.169 4.63353 13.2566 3.14713 13.3399C1.45513 13.4336 0.0754561 14.8328 0.00778376 16.5288C-0.0286613 17.4451 0.300634 18.3119 0.934472 18.9744C1.57094 19.6369 2.42346 20 3.33712 20C4.74018 20 6.0027 19.1071 6.47647 17.7769L6.63266 17.3344H13.3996C13.7093 18.8533 15.0551 20 16.6652 20C18.5016 20 19.9971 18.5045 19.9971 16.668V8.27435L19.9919 8.26637ZM11.9952 6.66414C11.6281 6.66414 11.3288 6.36478 11.3288 5.99774V1.33293H12.715C13.3215 1.33293 13.8981 1.60886 14.2781 2.08264L17.9433 6.66414H11.9952ZM3.33207 18.6593C2.22965 18.6593 1.33289 17.7626 1.33289 16.6601C1.33289 15.5577 2.22965 14.6609 3.33207 14.6609C4.43448 14.6609 5.33125 15.5577 5.33125 16.6601C5.33125 17.7626 4.43448 18.6593 3.33207 18.6593ZM16.66 18.6593C15.5575 18.6593 14.6608 17.7626 14.6608 16.6601C14.6608 15.5577 15.5575 14.6609 16.66 14.6609C17.7624 14.6609 18.6591 15.5577 18.6591 16.6601C18.6591 17.7626 17.7624 18.6593 16.66 18.6593Z"
+                    fill="#E3ECE8" />
+            </svg>
+            <p class="banner-main-small-banner__text">
+                «Вжух» доставка — 3 часа и книги ваши!
+            </p>
+        </div>
+        <div class="banner-main-small-banner">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M0.666394 5.99784H5.66435C6.0314 5.99784 6.33074 5.69848 6.33074 5.33144C6.33074 4.9644 6.03139 4.66504 5.66435 4.66504H0.666394C0.299344 4.66504 0 4.9644 0 5.33144C0 5.69848 0.299358 5.99784 0.666394 5.99784Z"
+                    fill="#E3ECE8" />
+                <path
+                    d="M0.666394 10.6629H2.66558C3.03263 10.6629 3.33197 10.3635 3.33197 9.99648C3.33197 9.62944 3.03261 9.33008 2.66558 9.33008H0.666394C0.299344 9.33008 0 9.62944 0 9.99648C0 10.3635 0.299358 10.6629 0.666394 10.6629Z"
+                    fill="#E3ECE8" />
+                <path
+                    d="M19.9919 8.26637C19.9919 7.51277 19.7316 6.77346 19.2618 6.18386L15.3167 1.2495C14.6802 0.452952 13.734 0 12.7149 0H0.723801C0.350254 0 0.0339835 0.262915 0.00402909 0.600027C-0.012891 0.792657 0.0469811 0.976177 0.174532 1.11675C0.300784 1.25732 0.481697 1.33672 0.667831 1.33672H9.99735V6.00152C9.99735 7.10395 10.8941 8.00073 11.9965 8.00073H18.6605V14.005C18.1034 13.5846 17.411 13.3321 16.6613 13.3321C15.0526 13.3321 13.7055 14.4788 13.3957 15.9977H6.62879L6.47261 15.5552C5.97931 14.169 4.63353 13.2566 3.14713 13.3399C1.45513 13.4336 0.0754561 14.8328 0.00778376 16.5288C-0.0286613 17.4451 0.300634 18.3119 0.934472 18.9744C1.57094 19.6369 2.42346 20 3.33712 20C4.74018 20 6.0027 19.1071 6.47647 17.7769L6.63266 17.3344H13.3996C13.7093 18.8533 15.0551 20 16.6652 20C18.5016 20 19.9971 18.5045 19.9971 16.668V8.27435L19.9919 8.26637ZM11.9952 6.66414C11.6281 6.66414 11.3288 6.36478 11.3288 5.99774V1.33293H12.715C13.3215 1.33293 13.8981 1.60886 14.2781 2.08264L17.9433 6.66414H11.9952ZM3.33207 18.6593C2.22965 18.6593 1.33289 17.7626 1.33289 16.6601C1.33289 15.5577 2.22965 14.6609 3.33207 14.6609C4.43448 14.6609 5.33125 15.5577 5.33125 16.6601C5.33125 17.7626 4.43448 18.6593 3.33207 18.6593ZM16.66 18.6593C15.5575 18.6593 14.6608 17.7626 14.6608 16.6601C14.6608 15.5577 15.5575 14.6609 16.66 14.6609C17.7624 14.6609 18.6591 15.5577 18.6591 16.6601C18.6591 17.7626 17.7624 18.6593 16.66 18.6593Z"
+                    fill="#E3ECE8" />
+            </svg>
+            <p class="banner-main-small-banner__text">
+                «Вжух» доставка — 3 часа и книги ваши!
+            </p>
+        </div>
+    </div>
+        <div class="banner-main-small-banners__wrap banner-main-small-banners__wrap--mobile">
+        <div class="banner-main-small-banner">
+            <img src="assets/img/Icon/banner-books.svg" alt="иконка книги">
+            <p class="banner-main-small-banner__text">
+                Подбор<br>книги
+            </p>
+        </div>
+        <div class="banner-main-small-banner">
+            <img src="assets/img/Icon/banner-box.svg" alt="иконка доставка">
+            <p class="banner-main-small-banner__text">
+                «Вжух»<br>доставка 
+            </p>
+        </div>
+        <div class="banner-main-small-banner">
+            <img src="assets/img/Icon/banner-friends.svg" alt="иконка клуб друзей">
+            <p class="banner-main-small-banner__text">
+                Клуб друзей<br>Дома книги
+            </p>
+        </div>
+        <div class="banner-main-small-banner">
+            <img src="assets/img/Icon/banner-promotion.svg" alt="иконка акции">
+            <p class="banner-main-small-banner__text">
+                Акции
+            </p>
+        </div>
+    </div>
+</div>
+<section class="sec-gap container">
+    <div class="block-header">
+        <div class="text-h2 text-accent">
+            Новинки
+        </div>
+        <a href="" class="btn-more text-btn text-accent">
+            Показать все
+        </a>
+    </div>
+
+    <div class="block-content product-slider--s">
+        <div class="product-card product-card--s">
+            <div class="product-card-badges">
+                <div class="product-card-badge product-card-badge--new">
+                    Новинка
+                </div>
+            </div>
+            <button class="product-card-favour active">
+                <img src="assets/img/Icon/Favourires.svg" alt="" class="svg">
+            </button>
+            <a href="" class="product-card__img-box">
+                <img src="assets/img/products/Image.png" alt="">
+            </a>
+            <div class="product-card__info-box">
+                <a href="" class="product-card__title text-h4">Зимний сад</a>
+                <div class="product-card__author text-secondary">Ханна Кристин</div>
+                <div class="product-card__ui">
+                    <div class="product-card-cost">
+                        <div class="product-card-cost-main">
+                            <span class="product-card-cost-main__val">803</span>
+                            <span class="product-card-cost-main__cur">₽</span>
+                        </div>
+                    </div>
+                    <div class="product-card-buttons">
+                        <button class="product-card-add active">
+                            <p class="product-card-add__text text-btn">
+                                В корзину
+                            </p>
+                            <img src="assets/img/Icon/Basket-white.svg" alt="" class="btn__icon">
+                        </button>
+                        <div class="cart__item-count product-card-counter">
+                            <div class="cart__item-count__input">
+                                <button type="button" class="cart__item-count__input-btn --minus"></button>
+                                <label class="cart__item-count__input-inp">
+                                    <input type="text" class="cart__item-count__input-box" maxlength="2" value="1"
+                                        name="">
+                                    <span>шт.</span>
+                                </label>
+                                <button type="button" class="cart__item-count__input-btn --plus"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="product-card product-card--s">
+            <div class="product-card-badges">
+                <div class="product-card-badge product-card-badge--new">
+                    Новинка
+                </div>
+                <div class="product-card-badge product-card-badge--promo">
+                    Акция
+                </div>
+            </div>
+            <button class="product-card-favour">
+                <img src="assets/img/Icon/Favourires.svg" alt="" class="svg">
+            </button>
+            <a href="" class="product-card__img-box">
+                <img src="assets/img/products/Image-1.png" alt="">
+            </a>
+            <div class="product-card__info-box">
+                <a href="" class="product-card__title text-h4">Все, что произошло в отеле</a>
+                <div class="product-card__author text-secondary">Трауб Маша</div>
+                <div class="product-card__ui">
+                    <div class="product-card-cost">
+                        <div class="product-card-cost-old">
+                            <span class="product-card-cost-old__val">751</span>
+                            <span class="product-card-cost-old__cur">₽</span>
+                        </div>
+                        <div class="product-card-cost-main product-card-cost-main--promo">
+                            <span class="product-card-cost-main__val">498</span>
+                            <span class="product-card-cost-main__cur">₽</span>
+                        </div>
+                    </div>
+                    <div class="product-card-buttons">
+                        <button class="product-card-add">
+                            <p class="product-card-add__text text-btn">
+                                В корзину
+                            </p>
+                            <img src="assets/img/Icon/Basket-white.svg" alt="" class="btn__icon">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="product-card product-card--s">
+            <div class="product-card-badges">
+                <div class="product-card-badge product-card-badge--new">
+                    Новинка
+                </div>
+            </div>
+            <button class="product-card-favour">
+                <img src="assets/img/Icon/Favourires.svg" alt="" class="svg">
+            </button>
+            <a href="" class="product-card__img-box">
+                <img src="assets/img/products/Image-2.png" alt="">
+            </a>
+            <div class="product-card__info-box">
+                <a href="" class="product-card__title text-h4">Нескучные финансы. Как управлять бизнесом на основе цифр
+                    и не</a>
+                <div class="product-card__author text-secondary">Афанасьев Александр Олегович, Бодрейший Андрей
+                    Дмитриевич, Краснов Сергей Николаевич</div>
+                <div class="product-card__ui">
+                    <div class="product-card-cost">
+                        <div class="product-card-cost-main">
+                            <span class="product-card-cost-main__val">803</span>
+                            <span class="product-card-cost-main__cur">₽</span>
+                        </div>
+                    </div>
+                    <div class="product-card-buttons">
+                        <button class="product-card-add">
+                            <p class="product-card-add__text text-btn">
+                                В корзину
+                            </p>
+                            <img src="assets/img/Icon/Basket-white.svg" alt="" class="btn__icon">
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="product-card product-card--s">
+            <div class="product-card-badges">
+                <div class="product-card-badge product-card-badge--new">
+                    Новинка
+                </div>
+            </div>
+            <button class="product-card-favour">
+                <img src="assets/img/Icon/Favourires.svg" alt="" class="svg">
+            </button>
+            <a href="" class="product-card__img-box">
+                <img src="assets/img/products/Image-3.png" alt="">
+            </a>
+            <div href="" class="product-card__info-box">
+                <a href="" class="product-card__title text-h4">НЛП. Игры, в которых побеждают женщины</a>
+                <div class="product-card__author text-secondary">Бакиров Анвар Камилевич</div>
+                <div class="product-card__ui">
+                    <div class="product-card-cost">
+                        <div class="product-card-cost-main">
+                            <span class="product-card-cost-main__val">803</span>
+                            <span class="product-card-cost-main__cur">₽</span>
+                        </div>
+                    </div>
+                    <div class="product-card-buttons">
+                        <button class="product-card-add">
+                            <p class="product-card-add__text text-btn">
+                                В корзину
+                            </p>
+                            <img src="assets/img/Icon/Basket-white.svg" alt="" class="btn__icon">
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="product-card product-card--s">
+            <div class="product-card-badges">
+                <div class="product-card-badge product-card-badge--new">
+                    Новинка
+                </div>
+            </div>
+            <button class="product-card-favour">
+                <img src="assets/img/Icon/Favourires.svg" alt="" class="svg">
+            </button>
+            <a href="" class="product-card__img-box">
+                <img src="assets/img/products/Image-4.png" alt="">
+            </a>
+            <div class="product-card__info-box">
+                <a href="" class="product-card__title text-h4">Телесный разум. Как тело влияет на наши мысли, чувства и
+                    воспоминания</a>
+                <div class="product-card__author text-secondary">Верни Т.</div>
+                <div class="product-card__ui">
+                    <div class="product-card-cost">
+                        <div class="product-card-cost-main">
+                            <span class="product-card-cost-main__val">803</span>
+                            <span class="product-card-cost-main__cur">₽</span>
+                        </div>
+                    </div>
+                    <div class="product-card-buttons">
+                        <button class="product-card-add">
+                            <p class="product-card-add__text text-btn">
+                                В корзину
+                            </p>
+                            <img src="assets/img/Icon/Basket-white.svg" alt="" class="btn__icon">
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+<section class="sec-gap container">
+    <div class="block-header">
+        <div class="text-h2 text-accent">
+            Бестселлеры
+        </div>
+        <a href="" class="btn-more text-btn text-accent">
+            Показать все
+        </a>
+    </div>
+
+    <div class="block-content product-slider--s">
+        <div class="product-card product-card--s">
+            <div class="product-card-badges">
+                <div class="product-card-badge product-card-badge--best">
+                    Бестселлер
+                </div>
+            </div>
+            <button class="product-card-favour">
+                <img src="assets/img/Icon/Favourires.svg" alt="" class="svg">
+            </button>
+            <a href="" class="product-card__img-box product-card__img-box--m">
+                <img src="assets/img/Bestsellers/Image.png" alt="">
+            </a>
+            <div class="product-card__info-box">
+                <a href="" class="product-card__title text-h4">Догра Магра</a>
+                <div class="product-card__author text-secondary">Юмэно Кюсаку</div>
+                <div class="product-card__ui">
+                    <div class="product-card-cost">
+                        <div class="product-card-cost-main">
+                            <span class="product-card-cost-main__val">803</span>
+                            <span class="product-card-cost-main__cur">₽</span>
+                        </div>
+                    </div>
+                    <div class="product-card-buttons">
+                        <button class="product-card-add">
+                            <p class="product-card-add__text text-btn">
+                                В корзину
+                            </p>
+                            <img src="assets/img/Icon/Basket-white.svg" alt="" class="btn__icon">
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="product-card product-card--s">
+            <div class="product-card-badges">
+                <div class="product-card-badge product-card-badge--best">
+                    Бестселлер
+                </div>
+            </div>
+            <button class="product-card-favour">
+                <img src="assets/img/Icon/Favourires.svg" alt="" class="svg">
+            </button>
+            <a href="" class="product-card__img-box product-card__img-box--m">
+                <img src="assets/img/Bestsellers/Image-1.png" alt="">
+            </a>
+            <div class="product-card__info-box">
+                <a href="" class="product-card__title text-h4">Крепче, чем ты думаешь. Книга для тех, кто считает, что с
+                    их отношениями что-то не так</a>
+                <div class="product-card__author text-secondary">Левандовски-младший Г.</div>
+                <div class="product-card__ui">
+                    <div class="product-card-cost">
+                        <div class="product-card-cost-old">
+                            <span class="product-card-cost-old__val">751</span>
+                            <span class="product-card-cost-old__cur">₽</span>
+                        </div>
+                        <div class="product-card-cost-main product-card-cost-main--promo">
+                            <span class="product-card-cost-main__val">498</span>
+                            <span class="product-card-cost-main__cur">₽</span>
+                        </div>
+                    </div>
+                    <div class="product-card-buttons">
+                        <button class="product-card-add">
+                            <p class="product-card-add__text text-btn">
+                                В корзину
+                            </p>
+                            <img src="assets/img/Icon/Basket-white.svg" alt="" class="btn__icon">
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="product-card product-card--s">
+            <div class="product-card-badges">
+                <div class="product-card-badge product-card-badge--best">
+                    Бестселлер
+                </div>
+            </div>
+            <button class="product-card-favour">
+                <img src="assets/img/Icon/Favourires.svg" alt="" class="svg">
+            </button>
+            <a href="" class="product-card__img-box product-card__img-box--m">
+                <img src="assets/img/Bestsellers/Image-2.png" alt="">
+            </a>
+            <div class="product-card__info-box">
+                <a href="" class="product-card__title text-h4">Сумерки мира</a>
+                <div class="product-card__author text-secondary">Херцог В.</div>
+                <div class="product-card__ui">
+                    <div class="product-card-cost">
+                        <div class="product-card-cost-old">
+                            <span class="product-card-cost-old__val">751</span>
+                            <span class="product-card-cost-old__cur">₽</span>
+                        </div>
+                        <div class="product-card-cost-main product-card-cost-main--promo">
+                            <span class="product-card-cost-main__val">498</span>
+                            <span class="product-card-cost-main__cur">₽</span>
+                        </div>
+                    </div>
+                    <div class="product-card-buttons">
+                        <button class="product-card-add">
+                            <p class="product-card-add__text text-btn">
+                                В корзину
+                            </p>
+                            <img src="assets/img/Icon/Basket-white.svg" alt="" class="btn__icon">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="product-card product-card--s">
+            <div class="product-card-badges">
+                <div class="product-card-badge product-card-badge--best">
+                    Бестселлер
+                </div>
+            </div>
+            <button class="product-card-favour">
+                <img src="assets/img/Icon/Favourires.svg" alt="" class="svg">
+            </button>
+            <a href="" class="product-card__img-box product-card__img-box--m">
+                <img src="assets/img/Bestsellers/Image-2.png" alt="">
+            </a>
+            <div class="product-card__info-box">
+                <a href="" class="product-card__title text-h4">Сумерки мира</a>
+                <div class="product-card__author text-secondary">Херцог В.</div>
+                <div class="product-card__ui">
+                    <div class="product-card-cost">
+                        <div class="product-card-cost-old">
+                            <span class="product-card-cost-old__val">751</span>
+                            <span class="product-card-cost-old__cur">₽</span>
+                        </div>
+                        <div class="product-card-cost-main product-card-cost-main--promo">
+                            <span class="product-card-cost-main__val">498</span>
+                            <span class="product-card-cost-main__cur">₽</span>
+                        </div>
+                    </div>
+                    <div class="product-card-buttons">
+                        <button class="product-card-add">
+                            <p class="product-card-add__text text-btn">
+                                В корзину
+                            </p>
+                            <img src="assets/img/Icon/Basket-white.svg" alt="" class="btn__icon">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="product-card product-card--s">
+            <div class="product-card-badges">
+                <div class="product-card-badge product-card-badge--best">
+                    Бестселлер
+                </div>
+            </div>
+            <button class="product-card-favour">
+                <img src="assets/img/Icon/Favourires.svg" alt="" class="svg">
+            </button>
+            <a href="" class="product-card__img-box product-card__img-box--m">
+                <img src="assets/img/Bestsellers/Image-2.png" alt="">
+            </a>
+            <div class="product-card__info-box">
+                <a href="" class="product-card__title text-h4">Сумерки мира</a>
+                <div class="product-card__author text-secondary">Херцог В.</div>
+                <div class="product-card__ui">
+                    <div class="product-card-cost">
+                        <div class="product-card-cost-old">
+                            <span class="product-card-cost-old__val">751</span>
+                            <span class="product-card-cost-old__cur">₽</span>
+                        </div>
+                        <div class="product-card-cost-main product-card-cost-main--promo">
+                            <span class="product-card-cost-main__val">498</span>
+                            <span class="product-card-cost-main__cur">₽</span>
+                        </div>
+                    </div>
+                    <div class="product-card-buttons">
+                        <button class="product-card-add">
+                            <p class="product-card-add__text text-btn">
+                                В корзину
+                            </p>
+                            <img src="assets/img/Icon/Basket-white.svg" alt="" class="btn__icon">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="sec-gap container">
+    <div class="block-header">
+        <div class="text-h2 text-accent">
+            Новости
+        </div>
+        <a href="" class="btn-more text-btn text-accent">
+            Показать все
+        </a>
+    </div>
+
+    <div class="block-content news-slider">
+        <div class="news-card">
+            <div class="news-card-main">
+                <a href="" class="news-card-img"><img src="assets/img/News/Image.png" alt=""></a>
+                <a href="" class="news-card-title text-h5 text-accent">БОЛЬШЕ КНИГ — БОЛЬШЕ СКИДОК! -15% НА СПЕЦИАЛЬНУЮ
+                    ЛИТЕРАТУРУ</a>
+            </div>
+            <div class="news-card-bottom">
+                <div class="advinf">
+                    Реклама. АО «Торговая фирма «СПб Дом книги»
+                </div>
+                <div class="news-card-date">
+                    06.06.23
+                </div>
+                <div class="tags">
+                    <a href="" class="tags-item">Chips</a>
+                    <a href="" class="tags-item">Chips</a>
+                    <a href="" class="tags-item">Chips</a>
+                </div>
+            </div>
+        </div>
+        <div class="news-card">
+            <a href="" class="news-card-main">
+                <div class="news-card-img"><img src="assets/img/News/Image-1.png" alt=""></div>
+                <a href="" class="news-card-title text-h5 text-accent">МЕЖДУНАРОДНЫЙ ДЕНЬ ДЕТСКОЙ КНИГИ</a>
+            </a>
+            <div class="news-card-bottom">
+                <div class="advinf">
+                    Реклама. АО «Торговая фирма «СПб Дом книги»
+                </div>
+                <div class="news-card-date">
+                    06.06.23
+                </div>
+                <div class="tags">
+                    <a href="" class="tags-item">Chips</a>
+                    <a href="" class="tags-item">Chips</a>
+                    <a href="" class="tags-item">Chips</a>
+                </div>
+            </div>
+        </div>
+        <div class="news-card">
+            <div class="news-card-main">
+                <div class="news-card-img"><img src="assets/img/News/Image-2.png" alt=""></div>
+                <div class="news-card-title text-h5 text-accent">С ЗАБОТОЙ О НАШЕЙ ПЛАНЕТЕ</div>
+            </div>
+            <div class="news-card-bottom">
+                <div class="advinf">
+                    Реклама. АО «Торговая фирма «СПб Дом книги»
+                </div>
+                <div class="news-card-date">
+                    06.06.23
+                </div>
+                <div class="tags">
+                    <a href="" class="tags-item">Chips</a>
+                    <a href="" class="tags-item">Chips</a>
+                    <a href="" class="tags-item">Chips</a>
+                </div>
+            </div>
+        </div>
+        <div class="news-card">
+            <div class="news-card-main">
+                <div class="news-card-img"><img src="assets/img/News/Image-3.png" alt=""></div>
+                <div class="news-card-title text-h5 text-accent">ПЕРЕЕЗД ПУНКТА ВЫДАЧИ ЗАКАЗОВ НА НЕВСКОМ, 28</div>
+            </div>
+            <div class="news-card-bottom">
+                <div class="advinf">
+                    Реклама. АО «Торговая фирма «СПб Дом книги»
+                </div>
+                <div class="news-card-date">
+                    06.06.23
+                </div>
+                <div class="tags">
+                    <a href="" class="tags-item">Chips</a>
+                    <a href="" class="tags-item">Chips</a>
+                    <a href="" class="tags-item">Chips</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="sec-gap container">
+    <div class="subscribe">
+        <div class="subscribe__c">
+            <img src="assets/img/illustration.svg" alt="" class="subscribe-img">
+            <div class="subscribe-title text-h2 text-h2--xl-large text-light">
+                ПОДПИШИСЬ
+                НА&nbsp;РАССЫЛКУ
+            </div>
+            <div class="subscribe-sub text-light">
+                Мы ближе, чем ты думаешь — новости, рекомендации, бестселлеры и новинки литературы
+            </div>
+            <form action="" class="subscribe-form">
+                <div class="subscribe-form-content">
+                    <label class="form-input form-input--light">
+                        <input type="text" class="form-input__input text-light text-ph">
+                        <div class="form-input__ph text-ph text-light">Ваше имя</div>
+                        <div class="form-input-icon"><img src="assets/img/Icon/name.svg" alt=""></div>
+                    </label>
+                    <label class="form-input form-input--light">
+                        <input type="text" class="form-input__input text-light text-ph">
+                        <div class="form-input__ph text-ph text-light">Ваш email</div>
+                        <div class="form-input-icon"><img src="assets/img/Icon/email.svg" alt=""></div>
+                    </label>
+                    <button class="btn disabled btn-light text-btn text-accent subscribe-btn">
+                        Подписаться
+                    </button>
+                </div>
+                <div class="subscribe-form-agree">
+                    <label class="form-choose-label">
+                        <input type="checkbox" name="agree" value="ok" required class="visually-hidden check-agree" id="">
+                        <p>
+                            Я согласен с политикой конфиденциальности и обработкой персональных данных согласно ФЗ-152
+                        </p>
+                    </label>
+                    <label class="form-choose-label">
+                        <input type="checkbox" name="agree" value="ok" required class="visually-hidden check-agree" id="">
+                        <p>
+                            Я согласен на получение рекламных рассылок
+                        </p>
+                    </label>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+<section class="sec-gap container">
+    <div class="block-header">
+        <div class="text-h2 text-accent">
+            События
+        </div>
+        <a href="" class="btn-more text-btn text-accent">
+            Показать все
+        </a>
+    </div>
+
+    <div class="block-content event-content">
+
+        <a href="" class="event-card event-card-lg">
+            <div class="event-card-head">
+                <div class="event-card-title">
+                    ПРОСМОТР И ОБСУЖДЕНИЕ ФИЛЬМА «ДАНИИЛ ГРАНИН. ПОСЛЕДНЕЕ ИНТЕРВЬЮ»
+                </div>
+                <div class="advinf">
+                    Реклама. АО «Торговая фирма «СПб Дом книги»
+                </div>
+            </div>
+            <div class="event-card-bottom">
+                <div class="event-card-date">
+                    <span class="event-card-day">19</span>
+                    <span class="event-card-month">апреля</span>
+                </div>
+                <div class="event-card-time">
+                    18:00
+                </div>
+            </div>
+            <div class="event-card-image event-card-image--circled">
+                <img src="assets/img/Events/Image-box.png" alt="">
+            </div>
+        </a>
+        <a href="" class="event-card event-card-lg">
+            <div class="event-card-head">
+                <div class="event-card-title">
+                    ПРОСМОТР И ОБСУЖДЕНИЕ ФИЛЬМА «ДАНИИЛ ГРАНИН. ПОСЛЕДНЕЕ ИНТЕРВЬЮ»
+                </div>
+                <div class="advinf">
+                    Реклама. АО «Торговая фирма «СПб Дом книги»
+                </div>
+            </div>
+            <div class="event-card-bottom">
+                <div class="event-card-date">
+                    <span class="event-card-day">19</span>
+                    <span class="event-card-month">апреля</span>
+                </div>
+                <div class="event-card-time">
+                    18:00
+                </div>
+            </div>
+            <div class="event-card-image event-card-image--circled">
+                <img src="assets/img/Events/Image-box.png" alt="">
+            </div>
+        </a>
+        <!-- <div class="event-card-side">
+            <a href="" class="event-card">
+                <div class="event-card-head">
+                    <div class="event-card-title">
+                        ПРЕЗЕНТАЦИЯ КНИГИ ТАНИ БОРИСОВОЙ «ПРИВЕТ, ПЕТЕРБУРГ»
+                    </div>
+                    <div class="advinf">
+                        Реклама. АО «Торговая фирма «СПб Дом книги»
+                    </div>
+                </div>
+                <div class="event-card-bottom">
+                    <div class="event-card-date">
+                        <span class="event-card-day">24</span>
+                        <span class="event-card-month">апреля</span>
+                    </div>
+                    <div class="event-card-time">
+                        13:00
+                    </div>
+                </div>
+                <div class="event-card-image event-card-image--circled">
+                    <img src="assets/img/Events/Image-box-0.png" alt="">
+                </div>
+            </a>
+            <a href="" class="event-card">
+                <div class="event-card-head">
+                    <div class="event-card-title">
+                        ПРЕЗЕНТАЦИЯ КНИГИ «АЗБУКА ДИКОВИННЫХ РЫБ. ДЛЯ ВЗРОСЛЫХ И ДЕТЕЙ»
+                    </div>
+                    <div class="advinf">
+                        Реклама. АО «Торговая фирма «СПб Дом книги»
+                    </div>
+                </div>
+                <div class="event-card-bottom">
+                    <div class="event-card-date">
+                        <span class="event-card-day">12</span>
+                        <span class="event-card-month">апреля</span>
+                    </div>
+                    <div class="event-card-time">
+                        16:30
+                    </div>
+                </div>
+                <div class="event-card-image">
+                    <img src="assets/img/Events/Image-box-1.png" alt="">
+                </div>
+            </a>
+            <a href="" class="event-card">
+                <div class="event-card-head">
+                    <div class="event-card-title">
+                        ПРЕЗЕНТАЦИЯ КНИГИ ТАНИ БОРИСОВОЙ «ПРИВЕТ, ПЕТЕРБУРГ»
+                    </div>
+                    <div class="advinf">
+                        Реклама. АО «Торговая фирма «СПб Дом книги»
+                    </div>
+                </div>
+                <div class="event-card-bottom">
+                    <div class="event-card-date">
+                        <span class="event-card-day">24</span>
+                        <span class="event-card-month">апреля</span>
+                    </div>
+                    <div class="event-card-time">
+                        13:00
+                    </div>
+                </div>
+                <div class="event-card-image">
+                    <img src="assets/img/Events/Image-box-2.png" alt="">
+                </div>
+            </a>
+        </div> -->
+
+    </div>
+
+</section>
+
+<section class="sec-gap container">
+    <div class="block-header">
+        <div class="text-h2 text-accent">
+            Подборки
+        </div>
+        <a href="" class="btn-more text-btn text-accent">
+            Показать все
+        </a>
+    </div>
+
+    <div class="block-content selection-slider">
+        <div href="" class="selection-card">
+            <div class="selection-card-top">
+                <a href="" class="selection-card-img"><img src="assets/img/Selection-block/Image.png" alt=""></a>
+                <div class="selection-card-date">
+                    06.06.23
+                </div>
+                <a href="" class="selection-card-title text-h4 text-accent">Как прокачать свои мозги. Лучшая подборка
+                    книг для развития мышления</a>
+            </div>
+
+            <div class="tags selection-card-tags">
+                <a href="" class="tags-item">Chips</a>
+                <a href="" class="tags-item">Chips</a>
+                <a href="" class="tags-item">Chips</a>
+            </div>
+        </div>
+        <div class="selection-card">
+            <div class="selection-card-top">
+                <a href="" class="selection-card-img"><img src="assets/img/Selection-block/Image-1.png" alt=""></a>
+                <div class="selection-card-date">
+                    06.06.23
+                </div>
+                <a href="" class="selection-card-title text-h4 text-accent">Подборка книг нобелевских лоуреатов</a>
+            </div>
+
+            <div class="tags selection-card-tags">
+                <a href="" class="tags-item">Chips</a>
+                <a href="" class="tags-item">Chips</a>
+                <a href="" class="tags-item">Chips</a>
+            </div>
+        </div>
+        <div class="selection-card">
+            <div class="selection-card-top">
+                <a href="" class="selection-card-img"><img src="assets/img/Selection-block/Image-2.png" alt=""></a>
+                <div class="selection-card-date">
+                    06.06.23
+                </div>
+                <a href="" class="selection-card-title text-h4 text-accent">Как помочь другу, родственнику
+                    или коллеге стать лучше</a>
+            </div>
+
+            <div class="tags selection-card-tags">
+                <a href="" class="tags-item">Chips</a>
+                <a href="" class="tags-item">Chips</a>
+                <a href="" class="tags-item">Chips</a>
+            </div>
+        </div>
+        <div class="selection-card">
+            <div class="selection-card-top">
+                <div class="selection-card-img"><img src="assets/img/Selection-block/Image-2.png" alt=""></div>
+                <div class="selection-card-date">
+                    06.06.23
+                </div>
+                <div class="selection-card-title text-h4 text-accent">Как помочь другу, родственнику
+                    или коллеге стать лучше</div>
+            </div>
+
+            <div class="tags selection-card-tags">
+                <a href="" class="tags-item">Chips</a>
+                <a href="" class="tags-item">Chips</a>
+                <a href="" class="tags-item">Chips</a>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="sec-gap container">
+    <div class="club-block">
+        <a href="" class="club-card">
+            <div class="club-card-title text-h2 text-h2--xl-large">
+                КЛУБ
+                СЛУЧАЙНОЙ
+                КНИГИ
+            </div>
+            <div class="club-card-desc">
+                Отройтесь миру литературы. Получайте каждый месяц случайную книгу.
+            </div>
+            <button class="club-card-btn text-btn">
+                Подробнее
+            </button>
+            <svg class="club-card-stripes" xmlns="http://www.w3.org/2000/svg" width="896" height="420" viewBox="0 0 896 420" fill="none">
+                <g clip-path="url(#clip0_2916_5890)">
+                <path d="M-482.695 783.611C-429.461 701.908 -234.764 515.637 118.154 424.177C559.301 309.853 802.277 424.202 915.137 463.406C1023.25 500.962 1027.7 430.341 977.186 421.496C902.834 408.476 425.798 366.09 210.812 215.624C-50.7152 32.5844 214.733 -297.818 632.813 -209.711" stroke="#D9E5E0"/>
+                <path d="M317.442 211.137C280.11 217.234 201.183 216.525 184.126 164.907C162.806 100.384 258.942 55.7041 399.66 27.1116C540.378 -1.4809 676.546 -82.2035 673.446 -157.998" stroke="#D9E5E0"/>
+                <path d="M815.68 -148.464C852.208 -119.598 906.598 -38.124 831.932 56.8442C738.599 175.555 553.429 236.941 533.434 209.205C513.439 181.47 693.609 90.2537 675.029 14.2967C656.449 -61.6603 499.95 -20.1607 464.135 51.2848C431.305 116.777 533.226 305.56 729.498 352.127C1050.42 428.267 1041.69 167.061 884.669 111.758" stroke="#D9E5E0"/>
+                <path d="M2222.67 -405.571C2173.93 -321.109 1989.59 -124.582 1642.14 -14.1719C1207.82 123.841 959.012 22.7978 844.197 -10.246C734.21 -41.9006 733.586 28.8579 784.505 34.9587C859.453 43.9384 1338.08 60.4666 1560.89 199.087C1831.93 367.716 1584.74 711.989 1162.51 646.62" stroke="#D9E5E0"/>
+                <path d="M976.597 595.351C938.561 568.503 879.845 490.089 949.267 391.222C1036.04 267.638 1217.62 196.328 1239.09 222.942C1260.55 249.555 1085.58 350.381 1108.24 425.222C1130.9 500.064 1284.93 450.162 1316.83 376.884C1346.07 309.713 1234.09 126.717 1035.58 90.832C711.012 32.1573 733.858 292.509 893.637 339.24" stroke="#D9E5E0"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_2916_5890">
+                <rect width="896" height="420" fill="white"/>
+                </clipPath>
+                </defs>
+                </svg>
+                <img src="assets/img/book.svg" alt="" class="club-card-book">
+        </a>
+        <a href="" class="club-card">
+            <div class="club-card-title text-h2 text-h2--xl-large">
+                КЛУБ
+                НЕСЛУЧАЙНОЙ
+                КНИГИ
+            </div>
+            <div class="club-card-desc">
+                Получайте каждый месяц книги,
+                которые&nbsp;вам по душе
+            </div>
+            <button class="club-card-btn text-btn">
+                Подробнее
+            </button>
+            <svg class="club-card-stripes" xmlns="http://www.w3.org/2000/svg" width="896" height="420" viewBox="0 0 896 420" fill="none">
+                <g clip-path="url(#clip0_2916_5838)">
+                <path d="M-1378.7 783.611C-1325.46 701.908 -1130.76 515.637 -777.846 424.177C-336.699 309.853 -93.7231 424.202 19.1368 463.406C127.252 500.962 131.7 430.341 81.186 421.496C6.83381 408.476 -470.202 366.09 -685.188 215.624C-946.715 32.5844 -681.267 -297.818 -263.187 -209.711" stroke="#D9E5E0"/>
+                <path d="M-80.3197 -148.464C-43.7917 -119.598 10.5978 -38.124 -64.0683 56.8442C-157.401 175.555 -342.571 236.941 -362.566 209.205C-382.561 181.47 -202.391 90.2537 -220.971 14.2967C-239.551 -61.6603 -396.05 -20.1607 -431.865 51.2848C-464.695 116.777 -362.774 305.56 -166.502 352.127C154.421 428.267 145.687 167.061 -11.3311 111.758" stroke="#D9E5E0"/>
+                <path d="M1326.67 -405.571C1277.93 -321.109 1093.59 -124.582 746.135 -14.1719C311.816 123.841 63.0119 22.7978 -51.8028 -10.246C-161.79 -41.9006 -162.414 28.8579 -111.495 34.9587C-36.5474 43.9384 442.083 60.4666 664.891 199.087C935.933 367.716 688.741 711.989 266.508 646.62" stroke="#D9E5E0"/>
+                <path d="M558.659 209.333C595.606 201.226 674.457 197.666 694.28 248.286C719.058 311.562 625.478 361.375 486.513 397.535C347.547 433.696 215.943 521.664 223.138 597.18" stroke="#D9E5E0"/>
+                <path d="M80.5966 595.351C42.5611 568.503 -16.1546 490.089 53.2667 391.222C140.043 267.638 321.623 196.328 343.089 222.942C364.554 249.555 189.581 350.381 212.241 425.222C234.901 500.064 388.926 450.162 420.826 376.884C450.066 309.713 338.086 126.717 139.583 90.832C-184.988 32.1573 -162.142 292.509 -2.36291 339.24" stroke="#D9E5E0"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_2916_5838">
+                <rect width="896" height="420" fill="white"/>
+                </clipPath>
+                </defs>
+            </svg>
+            <img src="assets/img/book.svg" alt="" class="club-card-book">
+        </a>
+    </div>
+</section>
+
+
+
+        <footer class="footer sec-gap">
+    <div class="container footer-bg">
+        <div class="footer__c">
+            <div class="footer-col footer-col--first">
+                <div class="footer-main">
+                    <a href="" class="footer-logo">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="108" height="48" viewBox="0 0 108 48" fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M64.3375 11.2948L64.3375 11.2979C64.3374 11.3294 64.3373 11.358 64.3373 11.3835C64.3373 11.4424 64.3388 11.5194 64.3407 11.613C64.3826 13.6679 64.5861 23.6678 51.9627 23.6678C40.3726 23.6678 40.0832 13.8813 40.0832 11.8339C40.0832 9.78652 41.0318 0 51.9627 0C64.3793 0 64.3436 9.64511 64.3375 11.2948ZM63.4304 11.3835C63.4304 7.53439 60.2131 4.13573 51.9627 4.13573C44.3311 4.13573 40.9913 8.14861 40.9913 11.8339C40.9913 15.5192 43.0537 19.5321 51.9627 19.5321C60.8718 19.5321 63.4304 15.2326 63.4304 11.3835ZM37.8088 5.26748V19.6959H39.888C39.9958 19.6959 40.0832 19.7833 40.0832 19.8912V23.4726C40.0832 23.5804 39.9958 23.6678 39.888 23.6678H15.7711C15.6633 23.6678 15.5758 23.5804 15.5758 23.4726V19.8912C15.5758 19.7833 15.6633 19.6959 15.7711 19.6959H18.723C18.8127 19.6959 18.8903 19.6373 18.9103 19.5498C19.0207 19.0681 19.2312 18.0324 19.5066 16.6772L19.5068 16.6762C19.8995 14.7435 20.4244 12.1608 20.9794 9.60794C22.2168 3.9162 27.7029 0.00568441 33.1477 0.00568441C35.0864 0.00568441 37.8088 0.681323 37.8088 5.26748ZM20.2724 19.6959H36.4888V7.08965C36.4888 5.28795 35.4988 4.67373 33.7664 4.67373C24.898 4.67373 22.4734 8.59215 21.789 11.4972C21.4124 13.0954 20.7509 16.2592 20.3412 18.2188C20.234 18.7316 20.144 19.162 20.0809 19.4603C20.0551 19.582 20.148 19.6959 20.2724 19.6959ZM22.8766 47.9999H26.008C26.1729 47.9999 26.2537 47.7852 26.1376 47.6681C25.2205 46.7432 23.8852 44.8071 23.8852 42.3655V37.1026C23.8852 37.0055 23.9638 36.9278 24.0609 36.9278H42.1252C42.2222 36.9278 42.3009 37.0063 42.3009 37.1034V42.3655C42.3009 45.1913 40.8914 46.7705 39.9359 47.6964C39.8219 47.8069 39.8993 47.9999 40.0581 47.9999H43.1868C43.2839 47.9999 43.3626 47.9212 43.3626 47.8242V25.1515C43.3626 25.0545 43.2839 24.9758 43.1868 24.9758L40.0844 24.9758C39.9233 24.9758 39.8423 25.1784 39.954 25.2944C40.8826 26.2596 42.3009 28.2338 42.3009 30.4481V32.5736C42.3009 32.6246 42.2792 32.6068 42.2445 32.5785C42.2132 32.5529 42.1712 32.5187 42.1252 32.5187H24.0609C23.9638 32.5187 23.8852 32.4402 23.8852 32.3431V30.4481C23.8852 29.0187 24.4062 26.8214 26.1454 25.3138C26.2743 25.202 26.1989 24.9755 26.0283 24.9751C25.7637 24.9746 25.4846 24.9737 25.2034 24.9729H25.2027C24.3182 24.9701 23.4128 24.9674 22.8729 24.9734C22.7771 24.9744 22.7008 25.0526 22.7008 25.1484V47.8242C22.7008 47.9212 22.7795 47.9999 22.8766 47.9999ZM0 25.1516V47.8243C0 47.9213 0.0786793 48 0.175735 48H3.40681C3.58018 48 3.65396 47.7685 3.51936 47.6593C2.57173 46.89 1.20479 45.2873 1.20479 41.9399V37.0884C1.20479 36.9913 1.28041 36.9135 1.37747 36.9135L15.1697 36.9135C16.507 36.9135 17.8749 37.258 16.507 39.7712C15.3975 41.8097 15.1543 42.2881 14.7861 43.0126C14.7004 43.1813 14.6078 43.3634 14.496 43.5816C13.9039 44.7369 12.5972 48 16.9664 48H21.4717C21.5746 48 21.6554 47.912 21.6471 47.8094C21.5919 47.1272 21.4686 46.3467 19.743 45.8313C17.436 45.1422 15.507 44.416 17.1195 41.19C17.2649 40.899 17.4118 40.6042 17.5592 40.3083L17.5599 40.3069C18.0848 39.2533 18.6161 38.1869 19.1101 37.2378C19.6855 36.1322 21.0395 32.8802 16.8745 32.8802H13.3489C13.1474 32.8802 13.1028 32.5908 13.2938 32.5267C14.7729 32.0304 16.879 31.2099 18.2526 30.0428C20.5361 28.1025 21.0037 26.2533 21.0463 25.1509C21.05 25.054 20.9721 24.9758 20.875 24.9758H14.5023C14.3344 24.9758 14.2628 25.1891 14.3915 25.297C14.9822 25.7923 15.7618 26.6108 15.7618 27.7525C15.7618 29.0699 14.1489 32.5154 8.47309 32.5154H3.98145C2.24604 32.5154 1.18278 32.1303 1.18278 29.759C1.18278 27.6679 2.29104 26.11 3.12982 25.3421C3.25882 25.2241 3.17611 24.9758 3.00122 24.9758L0.175734 24.9758C0.0786783 24.9758 0 25.0545 0 25.1516ZM47.6396 24.9758H45.042C44.9342 24.9758 44.8467 25.0589 44.8467 25.1667V47.8112C44.8467 47.919 44.9366 48 45.0445 47.9993C50.8663 47.9609 53.0442 46.1859 55.79 37.6125C57.9451 30.8833 61.94 29.2406 63.8294 29.3852C63.9262 29.3926 63.9974 29.4724 63.9974 29.5696V43.5423C63.9974 45.3279 62.961 46.8349 62.1935 47.6272C62.0657 47.7591 62.1569 47.9999 62.3405 47.9999H64.9455C65.0533 47.9999 65.1407 47.9168 65.1407 47.809V25.1658C65.1407 25.0579 65.0533 24.9756 64.9455 24.9774C61.4586 25.0356 57.9944 26.7065 55.4633 35.8949C53.6974 42.3055 50.0995 43.5783 46.2263 43.6187C46.1185 43.6198 46.0308 43.5348 46.0308 43.4269V30.5785C46.0308 28.081 46.9718 26.2724 47.7973 25.3841C47.9268 25.2447 47.8299 24.9758 47.6396 24.9758ZM87.6748 24.9758H90.2724C90.4628 24.9758 90.5597 25.2447 90.4301 25.3841C89.6047 26.2724 88.6637 28.081 88.6637 30.5785V43.4269C88.6637 43.5348 88.7513 43.6198 88.8592 43.6187C92.7324 43.5783 96.3302 42.3055 98.0961 35.8949C100.627 26.7065 104.091 25.0356 107.578 24.9774C107.686 24.9756 107.774 25.0579 107.774 25.1658V47.809C107.774 47.9168 107.686 47.9999 107.578 47.9999H104.973C104.79 47.9999 104.699 47.7591 104.826 47.6272C105.594 46.8349 106.63 45.3279 106.63 43.5423V29.5746C106.63 29.4775 106.559 29.3977 106.462 29.3902C104.573 29.2454 100.578 30.8833 98.4228 37.6125C95.677 46.1859 93.4992 47.9609 87.6773 47.9993C87.5695 48 87.4796 47.919 87.4796 47.8112V25.1667C87.4796 25.0589 87.567 24.9758 87.6748 24.9758ZM66.4313 25.1711V47.8047C66.4313 47.9126 66.5187 48 66.6265 48H69.2213C69.4028 48 69.4934 47.7664 69.3694 47.6337C68.5591 46.7668 67.5862 45.1216 67.5862 42.3984V29.2048C67.5862 29.0969 67.6706 29.0122 67.7784 29.0122H81.7757C83.702 29.0122 85.1097 29.699 85.8245 30.2256C85.9655 30.3295 86.1893 30.2312 86.1893 30.056V25.1711C86.1893 25.0632 86.1019 24.9758 85.994 24.9758H66.6265C66.5187 24.9758 66.4313 25.0632 66.4313 25.1711ZM64.5739 23.6679H72.8557C72.9635 23.6679 73.0515 23.5803 73.034 23.4739C72.9134 22.7423 72.1149 21.4402 69.5861 20.8425C66.8142 20.1873 66.3687 17.8397 66.4924 16.7477L67.9774 7.10709C68.0324 6.13799 68.7941 4.1998 71.401 4.1998C74.4841 4.1998 75.4831 6.13799 75.8131 7.10709L78.7067 15.0396L75.8608 22.4292C75.6309 23.0261 76.0715 23.6679 76.7111 23.6679H81.9629C82.5996 23.6679 83.04 23.0315 82.8157 22.4356L80.0328 15.045L82.9978 7.42007C83.4377 6.36908 84.3813 4.1998 87.1579 4.1998C89.9345 4.1998 90.499 6.13799 90.6228 7.10709L92.0665 16.7477C92.5011 19.6377 90.4012 20.3627 88.4509 21.0361C88.3214 21.0808 88.1927 21.1252 88.0654 21.1701C86.2008 21.8269 85.7934 22.919 85.8191 23.5104C85.8231 23.6029 85.9044 23.6679 85.997 23.6679H94.0673C94.1866 23.6679 94.278 23.5618 94.2604 23.4438L91.4477 4.60928C91.4409 4.58133 91.4341 4.55286 91.427 4.52392C91.0508 2.96978 90.3374 0.0231236 87.1579 0.0231236C84.3114 0.0231236 83.205 3.08056 82.7237 4.60928L79.3762 13.3013L76.1033 4.60928C76.0328 4.42358 75.9649 4.24108 75.8983 4.06224C75.03 1.73015 74.3945 0.0231236 71.401 0.0231236C67.9774 0.0231236 67.3174 3.76302 67.0286 5.63297L64.3808 23.4439C64.3633 23.5619 64.4547 23.6679 64.5739 23.6679Z" fill="#fff"/>
+                        </svg>
+                    </a>
+                    <div class="footer-addr text-secondary text-light">
+                        г.&nbsp;Санкт-Петербург, Невский пр.,
+                        д.&nbsp;28 лит.&nbsp;А, пом.&nbsp;7-Н, пом.1
+                    </div>
+                </div>
+            </div>
+            <div class="footer-col">
+                <ul class="footer-menu">
+                    <li class="footer-menu-item"><a href="about.html#vacancy" class="footer-menu-link text-light text-link">Вакансии</a></li>
+                    <li class="footer-menu-item"><a href="contacts.html" class="footer-menu-link text-light text-link">Контакты</a></li>
+                    <li class="footer-menu-item"><a href="customers.html" class="footer-menu-link text-light text-link">Покупателям</a></li>
+                    <li class="footer-menu-item"><a href="docs.html" class="footer-menu-link text-light text-link">Документы</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <ul class="footer-menu">
+                    <li class="footer-menu-item"><a href="shops.html" class="footer-menu-link text-light text-link">Магазины</a></li>
+                    <li class="footer-menu-item"><a href="authors.html" class="footer-menu-link text-light text-link">Авторы</a></li>
+                    <li class="footer-menu-item"><a href="publishers.html" class="footer-menu-link text-light text-link">Издательства</a></li>
+                </ul>
+            </div>
+            <div class="footer-col footer-col--contacts">
+                <ul class="footer-menu">
+                    <li class="footer-menu-item"><a href="" class="footer-menu-phone text-light text-link">Интернет-магазин 667-84-27</a></li>
+                    <li class="footer-menu-item"><a href="" class="footer-menu-phone text-light text-link">Наши магазины 667-84-25</a></li>
+                    <li class="footer-menu-item footer-menu-item-s"><a href="" class="text-light text-link">info@domknigi.spb.ru</a></li>
+                </ul>
+                <div class="footer-social">
+                    <a href="" class="footer-social-item"><img src="assets/img/Icon/VK.svg" alt=""></a>
+                    <a href="" class="footer-social-item"><img src="assets/img/Icon/Telegram.svg" alt=""></a>
+                    <a href="" class="footer-social-item"><img src="assets/img/Icon/Dzen.svg" alt=""></a></div>
+            </div>
+            <div class="footer-col footer-col--info">
+                <p class="text-secondary text-light">
+                    © АО «Торговая фирма «СПб Дом книги» - старейшее книготорговое предприятие Санкт‑Петербурга. 2023
+                </p>
+                <div class="footer-pay">
+                    <a href="" class="footer-pay-item"><img src="assets/img/Icon/pay/Pay-system.svg" alt=""></a>
+                    <a href="" class="footer-pay-item"><img src="assets/img/Icon/pay/Pay-system-1.svg" alt=""></a>
+                    <a href="" class="footer-pay-item"><img src="assets/img/Icon/pay/Pay-system-2.svg" alt=""></a>
+                </div>
+            </div>
+            <div class="footer-col--last-wrap">
+                <div class="footer-col footer-col--last">
+                    <iframe class="footer-rating" src="https://yandex.ru/sprav/widget/rating-badge/141826972057?type=rating" width="150" height="50" frameborder="0"></iframe>
+                    <div class="footer-info-links">
+                        <a href="" class="footer-info-link">Политика Конфиденциальности</a>
+                        <a href="" class="footer-info-link">Политика использования куки-файлов</a>
+                        <a href="" class="footer-info-link">Дизайн сайта: Николай Лисов</a>
+                        <a href="" class="footer-info-link">Разработка сайта: Андрей Литвинов</a>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+        <!-- <div class="footer__c">
+            
+        </div> -->
+    </div>
+
+</footer>
+
+<script src="assets/js/jquery-1.11.0.js"></script>
+<script src="assets/js/slick.js"></script>
+<script src="assets/js/jquery.suggestions.min.js"></script>
+<script src="assets/js/jquery-ui.js"></script>
+<script src="assets/js/app.min.js?v=1.18"></script>
+
+
+        
+
+        
+    </div>
+
+    <div class="mobile-nav">
+    <ul class="container mobile-nav__list">
+        <li class="mobile-nav__item active">
+            <a href="" class="mobile-nav__link">
+                <span class="mobile-nav__link-icon icon-Home"></span>
+                <span class="mobile-nav__link-text">Главная</span>
+            </a>
+        </li>
+        <li class="mobile-nav__item">
+            <div class="mobile-nav__link" data-menu="catalog">
+                <span class="mobile-nav__link-icon icon-Book"></span>
+                <span class="mobile-nav__link-text">Каталог</span>
+            </div>
+        </li>
+        <li class="mobile-nav__item">
+            <a href="" class="mobile-nav__link">
+                <span class="mobile-nav__link-icon icon-Basket">
+                    <div class="mobile-nav-cart-count">
+                        3
+                    </div>
+                </span>
+                <span class="mobile-nav__link-text">Корзина</span>
+            </a>
+        </li>
+        <li class="mobile-nav__item">
+            <a href="" class="mobile-nav__link">
+                <span class="mobile-nav__link-icon icon-Favourites"></span>
+                <span class="mobile-nav__link-text">Избранное</span>
+            </a>
+        </li>
+        <li class="mobile-nav__item">
+            <a href="" class="mobile-nav__link">
+                <span class="mobile-nav__link-icon icon-Profile"></span>
+                <span class="mobile-nav__link-text">Профиль</span>
+            </a>
+        </li>
+    </ul>
+</div>
+</body>
+</html>
