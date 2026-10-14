@@ -17567,7 +17567,7 @@ a.event-card--pg:hover {
   .banner-main.banner-main--seasonal .banner-main__arrows-lg {
     left: auto;
     right: 32px;
-    bottom: 19%;
+    bottom: 8.571429%;
     top: auto;
     transform: none;
     gap: 8px;
@@ -17580,10 +17580,11 @@ a.event-card--pg:hover {
     background-image: url(../img/Icon/Chevron-Right-white.svg);
   }
   .banner-main.banner-main--seasonal .banner-main__controls {
-    left: 32px;
+    left: 50%;
     right: auto;
-    bottom: 24px;
+    bottom: calc(7.4% - 4px);
     height: auto;
+    transform: translateX(-50%);
   }
   .banner-main.banner-main--seasonal .banner-main__controls .banner-main__dots {
     top: auto;
@@ -20181,7 +20182,7 @@ a.event-card--pg:hover {
   }
   .banner-main.banner-main--seasonal .banner-main__arrows-lg {
     right: 24px;
-    bottom: 21%;
+    bottom: 8.571429%;
     transform: none;
   }
   .banner-main.banner-main--seasonal .banner-main__arrows-lg .slider-arrow {
