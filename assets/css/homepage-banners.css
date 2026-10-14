@@ -1,4 +1,23 @@
 /* Responsive seasonal banners. Keep Slick and the existing hero arrows. */
+@media (min-width: 901px) {
+  .banner-main.banner-main--seasonal .banner-main-min-banners.slick-initialized {
+    --banner-gap: clamp(12px, 1.46vw, 28px);
+    container-type: inline-size;
+    display: block;
+    overflow: hidden;
+  }
+
+  /* Show two cards while Slick advances one card at a time, including clones. */
+  .banner-main.banner-main--seasonal .banner-main-min-banners.slick-initialized .slick-list {
+    height: calc(100cqw * 718 / 621) !important;
+  }
+
+  .banner-main.banner-main--seasonal .banner-main-min-banners.slick-initialized .banner-main-min-banners-item {
+    height: calc((100cqw * 718 / 621 - var(--banner-gap)) / 2);
+    margin-bottom: var(--banner-gap);
+  }
+}
+
 @media (max-width: 900px) {
   .banner-main.banner-main--seasonal {
     margin-top: 153px;
