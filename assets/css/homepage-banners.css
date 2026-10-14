@@ -1,0 +1,91 @@
+/* Responsive seasonal banners. Keep Slick and the existing hero arrows. */
+@media (max-width: 900px) {
+  .banner-main.banner-main--seasonal {
+    margin-top: 153px;
+  }
+
+  .banner-main.banner-main--seasonal .banner-main__dots ul {
+    height: 8px;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    line-height: 0;
+  }
+
+  .banner-main-min-banners-m--wrap.banner-main-min-banners-m--seasonal {
+    --banner-gap: clamp(9px, 1.302083vw, 10px);
+    --banner-inset: 36px;
+    margin-top: 32px;
+  }
+
+  .banner-main-min-banners-m--wrap.banner-main-min-banners-m--seasonal .banner-main-min-banners-m {
+    container-type: inline-size;
+    width: calc(100% - 2 * var(--banner-inset));
+    max-width: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+  }
+
+  .banner-main-min-banners-m--wrap.banner-main-min-banners-m--seasonal .banner-main-min-banners-slider-m {
+    margin: 0 calc(-1 * var(--banner-gap)) 0 0;
+  }
+
+  .banner-main-min-banners-m--wrap.banner-main-min-banners-m--seasonal .banner-main-min-banners-slider-m:not(.slick-initialized) {
+    display: flex;
+    overflow: hidden;
+  }
+
+  /* Container units also size Slick's cloned slides independently of its track. */
+  .banner-main-min-banners-m--wrap.banner-main-min-banners-m--seasonal .banner-main-min-banners-slider-m>div:not(.slick-list),
+  .banner-main-min-banners-m--wrap.banner-main-min-banners-m--seasonal .slick-slide {
+    width: calc((100cqw + var(--banner-gap)) / 2);
+    flex-shrink: 0;
+  }
+
+  .banner-main-min-banners-m--wrap.banner-main-min-banners-m--seasonal .banner-main-min-banners-item {
+    width: calc(100% - var(--banner-gap));
+    height: auto;
+    aspect-ratio: 621 / 345;
+    margin: 0 var(--banner-gap) 0 0;
+  }
+}
+
+@media (max-width: 620px) {
+  .banner-main.banner-main--seasonal {
+    margin-top: 97px;
+  }
+
+  .banner-main.banner-main--seasonal .banner-main__arrows-lg {
+    bottom: 24px;
+  }
+
+  .banner-main.banner-main--seasonal .banner-main__controls {
+    bottom: -16px;
+  }
+
+  .banner-main.banner-main--seasonal .banner-main__dots ul {
+    height: 3px;
+    gap: 6px;
+  }
+
+  .banner-main.banner-main--seasonal .banner-main__dots button {
+    width: 3px;
+    height: 3px;
+  }
+
+  .banner-main-min-banners-m--wrap.banner-main-min-banners-m--seasonal {
+    --banner-inset: 24px;
+    margin-top: 35px;
+  }
+}
+
+@media (max-width: 320px) {
+  .banner-main.banner-main--seasonal {
+    margin-top: 105px;
+  }
+
+  .banner-main-min-banners-m--wrap.banner-main-min-banners-m--seasonal {
+    --banner-inset: 20px;
+  }
+}
