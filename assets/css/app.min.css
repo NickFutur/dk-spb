@@ -4961,6 +4961,111 @@ select {
   }
 }
 
+
+/* Seasonal homepage banners: scoped to this block, without changing .container. */
+.banner-main.banner-main--seasonal {
+  display: grid;
+  grid-template-columns: minmax(0, 1162fr) minmax(0, 621fr);
+  gap: 16px;
+  min-height: 0;
+  height: auto;
+  max-height: none;
+  aspect-ratio: auto;
+}
+.banner-main.banner-main--seasonal .banner-main__primary {
+  position: relative;
+  min-width: 0;
+  aspect-ratio: 1162 / 718;
+}
+.banner-main.banner-main--seasonal .banner-main__slider {
+  position: relative;
+  overflow: hidden;
+  border-radius: 4px;
+}
+.banner-main.banner-main--seasonal .banner-main__slider-item {
+  min-height: 0;
+  height: auto;
+  max-height: none;
+  aspect-ratio: 1162 / 718;
+  background: #c6dcc2;
+}
+.banner-main.banner-main--seasonal .banner-main__slider-item__bg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: left center;
+}
+.banner-main.banner-main--seasonal .banner-main-min-banners {
+  position: static;
+  display: grid;
+  grid-template-rows: repeat(2, minmax(0, 1fr));
+  gap: clamp(12px, 1.46vw, 28px);
+  min-width: 0;
+}
+.banner-main.banner-main--seasonal .banner-main-min-banners-item {
+  width: 100%;
+  height: 100%;
+  aspect-ratio: auto;
+  margin: 0;
+  border: 0;
+  box-shadow: none;
+}
+.banner-main.banner-main--seasonal .banner-main-min-banners-item img,
+.banner-main-min-banners-m--wrap.banner-main-min-banners-m--seasonal .banner-main-min-banners-item img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.banner-main.banner-main--seasonal .banner-main__arrows-lg {
+  top: auto;
+  bottom: 35px;
+  left: 35px;
+  right: auto;
+  width: auto;
+  max-width: none;
+  margin: 0;
+  transform: none;
+  gap: 12px;
+  z-index: 1;
+}
+.banner-main.banner-main--seasonal .banner-main__controls {
+  bottom: 35px;
+  left: auto;
+  right: 35px;
+  width: auto;
+  height: auto;
+  transform: none;
+  z-index: 1;
+}
+.banner-main.banner-main--seasonal .banner-main__controls .banner-main__dots {
+  position: static;
+  transform: none;
+}
+.banner-main-min-banners-m--wrap.banner-main-min-banners-m--seasonal {
+  display: none;
+}
+.banner-main-small-banners.banner-main-small-banners--seasonal {
+  margin-top: 56px;
+}
+.banner-main-small-banners.banner-main-small-banners--seasonal .banner-main-small-banners__wrap--desktop {
+  width: calc((100% - 16px) * 1162 / 1783);
+  max-width: none;
+  flex-wrap: nowrap;
+}
+.banner-main-small-banners.banner-main-small-banners--seasonal .banner-main-small-banner {
+  min-width: 0;
+  flex: 1 1 auto;
+  gap: 12px;
+  padding: 16px;
+}
+.banner-main-small-banners.banner-main-small-banners--seasonal .banner-main-small-banner svg {
+  flex-shrink: 0;
+}
+.banner-main-small-banners.banner-main-small-banners--seasonal .banner-main-small-banner__text {
+  font-size: clamp(12px, 1.15vw, 22px);
+}
 .banner-main {
   margin-top: 160px;
   position: relative;
@@ -4988,12 +5093,136 @@ select {
     max-height: 720px;
     margin-top: 0;
   }
+
+  .banner-main.banner-main--seasonal {
+    margin-top: 160px;
+  }
+  .banner-main.banner-main--seasonal .banner-main__arrows-lg {
+    bottom: 24px;
+    left: 24px;
+  }
+  .banner-main.banner-main--seasonal .banner-main__arrows-lg .slider-arrow {
+    width: 48px;
+    height: 48px;
+  }
+  .banner-main.banner-main--seasonal .banner-main__controls {
+    bottom: 24px;
+    right: 24px;
+  }
+  .banner-main-small-banners.banner-main-small-banners--seasonal .banner-main-small-banner {
+    padding: 14px 12px;
+    gap: 8px;
+  }
 }
 @media (max-width: 900px) {
   .banner-main {
     min-height: 800px;
     max-height: 800px;
     height: 800px;
+  }
+
+  .banner-main.banner-main--seasonal {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+    margin-top: 160px;
+    min-height: 0;
+    height: auto;
+    max-height: none;
+  }
+  .banner-main.banner-main--seasonal .banner-main__primary,
+  .banner-main.banner-main--seasonal .banner-main__slider-item {
+    aspect-ratio: 768 / 420;
+  }
+  .banner-main.banner-main--seasonal .banner-main__slider {
+    border-radius: 8px;
+  }
+  .banner-main.banner-main--seasonal .banner-main-min-banners {
+    display: none;
+  }
+  .banner-main.banner-main--seasonal .banner-main__arrows-lg {
+    left: auto;
+    right: 32px;
+    bottom: 8.571429%;
+    top: auto;
+    transform: none;
+    gap: 8px;
+  }
+  .banner-main.banner-main--seasonal .banner-main__arrows-lg .slider-arrow {
+    width: 40px;
+    height: 40px;
+    border-radius: 3px;
+    background-color: #427e66;
+    background-image: url(../img/Icon/Chevron-Right-white.svg);
+  }
+  .banner-main.banner-main--seasonal .banner-main__controls {
+    left: 50%;
+    right: auto;
+    bottom: calc(7.4% - 4px);
+    height: auto;
+    transform: translateX(-50%);
+  }
+  .banner-main.banner-main--seasonal .banner-main__controls .banner-main__dots {
+    top: auto;
+    bottom: auto;
+    transform: none;
+  }
+  .banner-main-min-banners-m--wrap.banner-main-min-banners-m--seasonal {
+    display: block;
+    overflow: hidden;
+    margin-top: 36px;
+  }
+  .banner-main-min-banners-m--wrap.banner-main-min-banners-m--seasonal .banner-main-min-banners-m {
+    display: block;
+    width: calc(100% - 36px);
+    max-width: none;
+    margin-left: 36px;
+    margin-right: 0;
+    padding: 0;
+  }
+  .banner-main-min-banners-m--wrap.banner-main-min-banners-m--seasonal .banner-main-min-banners-slider-m {
+    margin: 0;
+  }
+  .banner-main-min-banners-m--wrap.banner-main-min-banners-m--seasonal .banner-main-min-banners-slider-m > div:not(.slick-list),
+  .banner-main-min-banners-m--wrap.banner-main-min-banners-m--seasonal .slick-slide {
+    width: 502px;
+  }
+  .banner-main-min-banners-m--wrap.banner-main-min-banners-m--seasonal .banner-main-min-banners-item {
+    width: 486px;
+    height: 270px;
+    margin: 0 16px 0 0;
+    border: 0;
+    box-shadow: none;
+  }
+  .banner-main-small-banners.banner-main-small-banners--seasonal {
+    margin-top: 48px;
+  }
+  .banner-main-small-banners.banner-main-small-banners--seasonal .banner-main-small-banners__wrap--desktop {
+    display: none;
+  }
+  .banner-main-small-banners.banner-main-small-banners--seasonal .banner-main-small-banners__wrap--mobile {
+    display: flex;
+    width: 100%;
+    max-width: none;
+    margin-top: 0;
+    gap: 16px;
+    flex-wrap: nowrap;
+  }
+  .banner-main-small-banners.banner-main-small-banners--seasonal .banner-main-small-banner {
+    flex: 1 1 0;
+    padding: 0;
+    gap: 16px;
+    background: none;
+  }
+  .banner-main-small-banners.banner-main-small-banners--seasonal .banner-main-small-banner img {
+    width: 72px;
+    height: 72px;
+    object-fit: contain;
+  }
+  .banner-main-small-banners.banner-main-small-banners--seasonal .banner-main-small-banner__text {
+    font-size: 16px;
+    line-height: 1.2;
   }
 }
 @media (max-width: 810px) {
@@ -5015,6 +5244,101 @@ select {
     max-height: 230px;
     height: 230px;
     margin-top: 93px;
+  }
+
+  .banner-main.banner-main--seasonal {
+    margin-top: 93px;
+  }
+  .banner-main.banner-main--seasonal .banner-main__primary,
+  .banner-main.banner-main--seasonal .banner-main__slider-item {
+    aspect-ratio: 390 / 228;
+  }
+  .banner-main.banner-main--seasonal .banner-main__slider {
+    border-radius: 4px;
+  }
+  .banner-main.banner-main--seasonal .banner-main__arrows-lg {
+    right: 24px;
+    bottom: 8.571429%;
+    transform: none;
+  }
+  .banner-main.banner-main--seasonal .banner-main__arrows-lg .slider-arrow {
+    width: 23px;
+    height: 23px;
+    border-radius: 2px;
+    background-color: #e3ece8;
+    background-image: url(../img/Icon/Chevron-Right.svg);
+  }
+  .banner-main.banner-main--seasonal .banner-main__controls {
+    left: 50%;
+    right: auto;
+    bottom: -20px;
+    transform: translateX(-50%);
+  }
+  .banner-main-min-banners-m--wrap.banner-main-min-banners-m--seasonal {
+    margin-top: 36px;
+  }
+  .banner-main-min-banners-m--wrap.banner-main-min-banners-m--seasonal .banner-main-min-banners-m {
+    width: calc(100% - 24px);
+    margin-left: 24px;
+  }
+  .banner-main-min-banners-m--wrap.banner-main-min-banners-m--seasonal .banner-main-min-banners-slider-m > div:not(.slick-list),
+  .banner-main-min-banners-m--wrap.banner-main-min-banners-m--seasonal .slick-slide {
+    width: 308px;
+  }
+  .banner-main-min-banners-m--wrap.banner-main-min-banners-m--seasonal .banner-main-min-banners-item {
+    width: 300px;
+    height: 180px;
+    margin-right: 8px;
+  }
+  .banner-main-small-banners.banner-main-small-banners--seasonal {
+    margin-top: 32px;
+  }
+  .banner-main-small-banners.banner-main-small-banners--seasonal .banner-main-small-banners__wrap--mobile {
+    gap: 8px;
+  }
+  .banner-main-small-banners.banner-main-small-banners--seasonal .banner-main-small-banner {
+    gap: 12px;
+  }
+  .banner-main-small-banners.banner-main-small-banners--seasonal .banner-main-small-banner img {
+    width: 40px;
+    height: 40px;
+  }
+  .banner-main-small-banners.banner-main-small-banners--seasonal .banner-main-small-banner__text {
+    font-size: 12px;
+  }
+
+  @media (max-width: 320px) {
+    .banner-main.banner-main--seasonal {
+      margin-top: 105px;
+    }
+    .banner-main-min-banners-m--wrap.banner-main-min-banners-m--seasonal {
+      margin-top: 28px;
+    }
+    .banner-main-min-banners-m--wrap.banner-main-min-banners-m--seasonal .banner-main-min-banners-m {
+      width: calc(100% - 20px);
+      margin-left: 20px;
+    }
+    .banner-main-min-banners-m--wrap.banner-main-min-banners-m--seasonal .banner-main-min-banners-slider-m > div:not(.slick-list),
+    .banner-main-min-banners-m--wrap.banner-main-min-banners-m--seasonal .slick-slide {
+      width: calc(100vw - 70px);
+    }
+    .banner-main-min-banners-m--wrap.banner-main-min-banners-m--seasonal .banner-main-min-banners-item {
+      width: calc(100vw - 76px);
+      height: auto;
+      aspect-ratio: 5 / 3;
+      margin-right: 6px;
+    }
+    .banner-main-small-banners.banner-main-small-banners--seasonal {
+      margin-top: 28px;
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+    .banner-main-small-banners.banner-main-small-banners--seasonal .banner-main-small-banner {
+      gap: 10px;
+    }
+    .banner-main-small-banners.banner-main-small-banners--seasonal .banner-main-small-banner__text {
+      font-size: 10px;
+    }
   }
 }
 .banner-main__slider {
