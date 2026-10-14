@@ -79,6 +79,15 @@
     bottom: 24px;
   }
 
+  .banner-main.banner-main--seasonal .banner-main__arrows-lg .slider-arrow {
+    background-color: #427e66;
+    background-image: url(../img/Icon/Chevron-Right-white.svg);
+  }
+
+  .banner-main.banner-main--seasonal .banner-main__arrows-lg .slider-arrow:hover {
+    background-color: #689885;
+  }
+
   .banner-main.banner-main--seasonal .banner-main__controls {
     bottom: -16px;
   }
